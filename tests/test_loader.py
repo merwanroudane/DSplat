@@ -49,3 +49,12 @@ def test_nested_json_is_flattened():
     data = [{"id": 1, "c": {"city": "Rabat"}}, {"id": 2, "c": {"city": "Cairo"}}]
     res = load_bytes(json.dumps(data).encode(), "x.json")
     assert res.ok and "c.city" in res.df.columns
+
+
+def test_json_list_columns_become_text():
+    from utils.profiling import detect_issues, overview
+    data = [{"id": 1, "tags": ["promo"]}, {"id": 2, "tags": []}]
+    res = load_bytes(json.dumps(data).encode(), "x.json")
+    assert res.ok and isinstance(res.df.loc[0, "tags"], str)
+    overview(res.df)
+    detect_issues(res.df)

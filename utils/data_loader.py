@@ -161,6 +161,12 @@ def _load_json(raw: bytes, res: LoadResult) -> None:
     nested = [c for c in df.columns if "." in str(c)]
     if nested:
         res.warnings.append(f"فُكّكت {len(nested)} حقول متداخلة (Nested) إلى أعمدة مسطّحة مثل: {nested[:3]}.")
+    # Lists/dicts left after flattening are unhashable (break duplicated(), nunique()); keep them as JSON text.
+    list_cols = [c for c in df.columns if df[c].map(lambda v: isinstance(v, (list, dict))).any()]
+    for c in list_cols:
+        df[c] = df[c].map(lambda v: json.dumps(v, ensure_ascii=False) if isinstance(v, (list, dict)) else v)
+    if list_cols:
+        res.warnings.append(f"أعمدة تحتوي قوائم (Lists) حُفظت كنص JSON: {list_cols}. فكّكها بـexplode() إن احتجت.")
     res.df = df
 
 
