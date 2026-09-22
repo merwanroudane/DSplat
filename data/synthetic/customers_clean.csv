@@ -1,0 +1,601 @@
+customer_id,signup_date,age,gender,country,annual_income,membership,monthly_spend,num_orders,height_cm,satisfaction,email,last_purchase_date,churned
+C0001,2022-02-24,42,Male,Saudi Arabia,28800.0,Bronze,137.11,2,178.9,5,user0000@demo.org,2022-03-28,0
+C0002,2021-09-09,26,Male,Jordan,53900.0,Gold,326.62,5,183.3,4,user0001@mail.test,2021-12-15,0
+C0003,2021-06-14,47,Female,Morocco,23200.0,Bronze,110.29,2,167.1,5,user0002@demo.org,2021-12-11,0
+C0004,2023-12-15,49,Female,United States,50600.0,Gold,384.17,5,166.5,2,user0003@demo.org,2024-05-10,1
+C0005,2021-05-22,18,Male,Jordan,36500.0,Silver,74.53,2,183.8,5,user0004@demo.org,2021-08-05,0
+C0006,2023-02-13,22,Female,Algeria,26500.0,Bronze,183.3,2,167.9,3,user0005@mail.test,2023-07-04,1
+C0007,2023-02-25,40,Male,Jordan,40400.0,Silver,89.93,3,173.4,3,user0006@example.com,2023-07-09,0
+C0008,2022-11-08,34,Male,Morocco,29400.0,Bronze,166.44,5,175.1,4,user0007@example.com,2023-06-06,1
+C0009,2023-09-26,38,Female,Egypt,24800.0,Bronze,85.87,3,170.0,5,user0008@mail.test,2024-05-08,0
+C0010,2021-01-06,28,Female,Morocco,31500.0,Silver,139.57,5,170.8,2,user0009@demo.org,2021-12-25,1
+C0011,2021-11-27,49,Female,Morocco,26600.0,Bronze,97.6,2,163.6,3,user0010@demo.org,2022-10-15,0
+C0012,2021-07-21,47,Female,United States,49800.0,Silver,254.44,4,166.3,4,user0011@example.com,2021-11-15,1
+C0013,2022-09-24,39,Female,France,24100.0,Bronze,185.18,3,166.6,3,user0012@mail.test,2023-09-20,0
+C0014,2022-11-27,52,Male,France,61500.0,Gold,100.45,3,179.0,4,user0013@demo.org,2023-06-23,0
+C0015,2023-09-11,44,Female,Algeria,24700.0,Bronze,75.73,4,166.4,5,user0014@example.com,2023-11-25,0
+C0016,2022-02-20,28,Female,France,28600.0,Bronze,65.1,1,154.0,4,user0015@mail.test,2022-07-06,1
+C0017,2021-09-16,42,Female,Jordan,31300.0,Silver,55.55,4,174.1,3,user0016@demo.org,2022-07-09,0
+C0018,2023-10-10,26,Male,Morocco,65900.0,Gold,295.05,8,179.4,2,user0017@example.com,2024-09-02,0
+C0019,2023-01-07,49,Female,Egypt,50700.0,Gold,72.59,13,158.9,3,user0018@example.com,2023-06-06,0
+C0020,2023-04-18,37,Female,United States,36200.0,Silver,185.88,8,155.8,3,user0019@mail.test,2023-06-20,0
+C0021,2022-05-03,36,Male,Jordan,49400.0,Silver,107.44,5,163.2,4,user0020@demo.org,2022-07-19,0
+C0022,2022-05-05,30,Female,Morocco,14600.0,Bronze,238.48,3,160.3,4,user0021@example.com,2022-06-16,0
+C0023,2022-03-03,53,Female,Saudi Arabia,44100.0,Silver,494.01,3,164.0,3,user0022@demo.org,2022-12-07,1
+C0024,2023-04-01,36,Female,United States,97000.0,Silver,5.38,7,166.5,5,user0023@example.com,2023-10-19,0
+C0025,2021-08-19,33,Female,Morocco,40900.0,Silver,76.1,3,158.6,3,user0024@mail.test,2022-02-16,0
+C0026,2023-12-05,34,Female,Saudi Arabia,40100.0,Silver,99.42,2,155.3,3,user0025@mail.test,2024-08-30,1
+C0027,2021-07-12,44,Male,Algeria,53800.0,Bronze,140.78,11,182.2,4,user0026@example.com,2022-06-08,0
+C0028,2022-05-20,42,Female,United States,62000.0,Gold,141.34,6,158.8,4,user0027@demo.org,2023-04-03,0
+C0029,2021-12-11,43,Female,Egypt,17000.0,Bronze,39.17,4,162.9,5,user0028@demo.org,2022-02-04,0
+C0030,2022-12-05,43,Female,Jordan,19600.0,Bronze,415.49,2,153.9,4,user0029@demo.org,2023-07-29,1
+C0031,2023-01-16,64,Male,Egypt,53300.0,Gold,137.56,6,172.5,5,user0030@example.com,2024-01-04,0
+C0032,2023-10-03,33,Male,Jordan,27900.0,Bronze,190.25,0,166.4,3,user0031@mail.test,2024-08-07,0
+C0033,2023-05-15,32,Female,Egypt,69000.0,Gold,256.85,3,165.6,5,user0032@demo.org,2023-09-24,0
+C0034,2021-09-30,28,Female,United States,32000.0,Silver,35.03,6,157.3,5,user0033@example.com,2022-03-06,1
+C0035,2021-08-15,45,Female,Egypt,17700.0,Bronze,94.9,2,155.0,5,user0034@mail.test,2022-08-06,0
+C0036,2023-08-29,52,Female,Egypt,25200.0,Bronze,222.65,5,162.1,2,user0035@mail.test,2023-09-12,0
+C0037,2022-06-19,37,Female,Algeria,11600.0,Bronze,296.86,2,165.4,3,user0036@mail.test,2023-01-15,0
+C0038,2021-04-17,28,Female,Morocco,33200.0,Silver,109.19,6,164.4,4,user0037@mail.test,2021-06-03,0
+C0039,2023-06-23,28,Male,Morocco,33900.0,Silver,42.46,4,173.6,1,user0038@demo.org,2024-06-14,0
+C0040,2022-12-12,46,Female,Egypt,35300.0,Silver,89.52,3,163.8,4,user0039@example.com,2022-12-28,0
+C0041,2021-01-29,47,Female,France,69900.0,Gold,134.6,9,171.0,5,user0040@demo.org,2021-02-08,0
+C0042,2023-05-08,45,Female,Jordan,72700.0,Gold,132.75,5,163.2,3,user0041@demo.org,2023-09-17,0
+C0043,2022-10-28,30,Male,Tunisia,34800.0,Silver,68.3,4,180.0,3,user0042@example.com,2023-01-16,0
+C0044,2022-11-04,41,Male,Egypt,15700.0,Bronze,32.94,0,172.1,3,user0043@demo.org,2023-05-21,0
+C0045,2023-08-06,39,Female,Saudi Arabia,53400.0,Gold,61.54,6,174.3,3,user0044@example.com,2023-12-04,0
+C0046,2022-06-27,41,Female,Morocco,52800.0,Gold,101.81,3,154.3,3,user0045@example.com,2022-11-17,0
+C0047,2022-05-21,48,Male,United States,49800.0,Silver,263.35,3,180.3,3,user0046@mail.test,2023-01-02,0
+C0048,2022-11-07,41,Male,Tunisia,63900.0,Gold,366.27,3,170.9,3,user0047@demo.org,2023-06-19,0
+C0049,2021-08-05,46,Female,France,25300.0,Bronze,144.05,4,162.6,3,user0048@demo.org,2022-08-14,0
+C0050,2021-06-16,39,Male,United States,99900.0,Platinum,82.32,10,175.4,3,user0049@mail.test,2021-12-25,0
+C0051,2023-07-13,41,Male,Egypt,26700.0,Gold,88.43,2,185.6,5,user0050@demo.org,2024-02-24,0
+C0052,2021-08-25,46,Female,Algeria,59800.0,Gold,20.75,8,162.5,3,user0051@example.com,2022-05-23,0
+C0053,2022-07-07,21,Male,Saudi Arabia,16200.0,Bronze,313.04,5,164.7,4,user0052@demo.org,2022-09-15,0
+C0054,2021-10-23,34,Female,Morocco,25600.0,Bronze,76.84,5,161.3,3,user0053@mail.test,2022-07-17,0
+C0055,2021-09-10,32,Female,Egypt,75600.0,Gold,245.87,7,159.9,3,user0054@example.com,2022-08-20,0
+C0056,2022-10-17,30,Female,Morocco,33400.0,Silver,284.14,4,158.0,2,user0055@example.com,2023-02-21,0
+C0057,2023-05-29,35,Female,Morocco,57200.0,Gold,502.25,5,151.1,2,user0056@example.com,2023-08-09,0
+C0058,2022-04-29,56,Male,Morocco,51100.0,Platinum,286.05,2,175.0,2,user0057@example.com,2022-09-15,0
+C0059,2021-06-01,28,Female,Saudi Arabia,35200.0,Silver,103.41,4,174.3,4,user0058@example.com,2021-09-19,0
+C0060,2021-09-25,50,Female,United States,81300.0,Platinum,278.49,7,164.7,5,user0059@demo.org,2022-05-17,0
+C0061,2021-06-30,18,Female,Egypt,30300.0,Gold,406.28,4,166.1,2,user0060@example.com,2022-06-10,0
+C0062,2023-08-25,34,Male,Saudi Arabia,17400.0,Bronze,71.25,2,186.6,3,user0061@mail.test,2024-04-19,1
+C0063,2021-12-16,40,Male,Tunisia,28400.0,Bronze,34.72,2,169.9,2,user0062@demo.org,2022-02-05,0
+C0064,2022-02-14,45,Male,France,54300.0,Bronze,78.73,4,165.7,3,user0063@example.com,2022-06-20,0
+C0065,2021-03-19,47,Female,United States,51400.0,Gold,221.7,2,174.1,5,user0064@demo.org,2021-12-20,1
+C0066,2022-05-04,48,Male,Egypt,21400.0,Bronze,94.77,1,173.5,3,user0065@mail.test,2022-09-13,1
+C0067,2023-09-28,34,Male,Algeria,28000.0,Bronze,126.47,3,189.3,4,user0066@example.com,2024-05-19,0
+C0068,2022-03-25,32,Male,Egypt,29400.0,Silver,212.45,4,171.3,5,user0067@demo.org,2022-12-27,0
+C0069,2022-12-15,48,Female,Egypt,36800.0,Silver,68.44,6,163.3,4,user0068@mail.test,2023-04-26,1
+C0070,2021-07-19,36,Male,Algeria,21300.0,Bronze,115.39,2,182.6,3,user0069@mail.test,2022-04-04,0
+C0071,2021-06-06,23,Female,Saudi Arabia,26600.0,Bronze,87.1,2,153.3,4,user0070@demo.org,2021-11-12,0
+C0072,2023-03-13,24,Female,France,25700.0,Bronze,381.62,4,155.2,3,user0071@demo.org,2023-05-06,1
+C0073,2021-03-13,27,Female,United States,51800.0,Gold,281.24,3,162.3,4,user0072@demo.org,2021-08-09,0
+C0074,2022-05-07,44,Female,United States,60500.0,Gold,125.98,3,160.2,4,user0073@demo.org,2022-10-30,0
+C0075,2021-12-13,40,Female,Egypt,38200.0,Silver,103.68,3,153.2,2,user0074@example.com,2021-12-14,1
+C0076,2021-01-18,46,Female,Egypt,35800.0,Silver,443.28,2,161.8,4,user0075@mail.test,2022-01-10,0
+C0077,2022-08-05,33,Female,Egypt,41000.0,Silver,435.76,3,160.1,3,user0076@example.com,2023-03-04,0
+C0078,2023-11-22,40,Male,Morocco,28200.0,Bronze,186.85,9,179.2,4,user0077@demo.org,2023-12-07,0
+C0079,2021-03-17,46,Female,Algeria,25500.0,Bronze,128.41,3,159.8,4,user0078@demo.org,2022-02-27,1
+C0080,2023-06-13,34,Male,Egypt,25400.0,Bronze,42.73,5,173.9,4,user0079@mail.test,2024-05-20,0
+C0081,2022-08-14,43,Male,United States,31400.0,Silver,67.57,4,163.2,3,user0080@mail.test,2022-08-19,0
+C0082,2023-03-04,30,Male,Jordan,22300.0,Bronze,38.67,8,167.3,5,user0081@demo.org,2023-05-09,0
+C0083,2021-04-16,34,Male,Jordan,41800.0,Bronze,310.24,7,171.7,3,user0082@example.com,2021-09-09,0
+C0084,2023-08-10,33,Female,Saudi Arabia,53500.0,Platinum,53.1,6,150.1,2,user0083@mail.test,2024-02-29,0
+C0085,2021-01-13,24,Male,Saudi Arabia,17400.0,Bronze,87.17,2,175.8,1,user0084@demo.org,2021-10-30,0
+C0086,2023-09-20,44,Male,Tunisia,42500.0,Silver,23.07,4,179.1,4,user0085@example.com,2024-03-08,0
+C0087,2022-12-22,32,Female,United States,34600.0,Silver,32.77,4,164.4,3,user0086@demo.org,2023-08-24,1
+C0088,2022-01-05,38,Female,Jordan,46800.0,Silver,248.76,4,158.8,4,user0087@example.com,2022-01-10,0
+C0089,2021-01-08,44,Male,Algeria,41800.0,Silver,184.57,3,182.8,2,user0088@demo.org,2021-09-28,1
+C0090,2022-10-31,43,Female,Jordan,21700.0,Bronze,127.95,4,162.0,3,user0089@mail.test,2023-11-01,0
+C0091,2021-04-06,46,Female,Morocco,24200.0,Bronze,93.6,6,159.4,4,user0090@demo.org,2021-11-02,0
+C0092,2022-10-29,37,Male,United States,40300.0,Silver,29.67,9,172.5,3,user0091@demo.org,2023-04-29,1
+C0093,2023-04-27,33,Male,Morocco,61200.0,Gold,108.65,9,163.8,4,user0092@mail.test,2023-08-24,0
+C0094,2021-10-20,37,Female,United States,14700.0,Bronze,104.1,7,161.7,3,user0093@demo.org,2022-11-05,0
+C0095,2021-09-19,18,Male,Tunisia,39400.0,Silver,225.13,1,169.5,4,user0094@mail.test,2021-10-03,0
+C0096,2021-09-01,21,Female,Saudi Arabia,59200.0,Bronze,335.38,6,160.8,4,user0095@mail.test,2021-12-25,0
+C0097,2021-09-04,22,Male,Saudi Arabia,32700.0,Silver,229.8,3,187.2,5,user0096@demo.org,2021-10-30,0
+C0098,2021-05-05,26,Male,Morocco,46500.0,Silver,189.86,5,171.2,4,user0097@example.com,2022-04-16,0
+C0099,2021-10-01,43,Female,Tunisia,30400.0,Silver,135.51,2,166.4,3,user0098@mail.test,2022-04-12,1
+C0100,2022-12-23,27,Female,Morocco,34700.0,Gold,162.22,3,163.7,3,user0099@example.com,2023-12-27,0
+C0101,2021-11-28,33,Male,Morocco,18600.0,Bronze,75.58,5,169.9,4,user0100@mail.test,2022-08-21,0
+C0102,2023-05-06,54,Female,Egypt,15800.0,Bronze,128.24,0,162.6,3,user0101@demo.org,2023-12-15,0
+C0103,2023-06-17,34,Female,Morocco,59400.0,Gold,144.02,9,158.5,3,user0102@example.com,2024-01-10,0
+C0104,2023-04-14,47,Female,Saudi Arabia,27600.0,Bronze,528.22,6,164.0,3,user0103@mail.test,2023-07-04,0
+C0105,2022-08-14,27,Male,Saudi Arabia,29800.0,Bronze,159.24,3,177.4,3,user0104@mail.test,2023-03-27,0
+C0106,2021-12-13,36,Female,Egypt,21200.0,Bronze,14.17,2,169.3,3,user0105@demo.org,2022-09-13,1
+C0107,2023-10-16,27,Male,Morocco,19400.0,Bronze,86.15,5,180.4,2,user0106@example.com,2024-11-05,1
+C0108,2021-08-13,34,Male,Morocco,35900.0,Silver,112.48,3,174.4,4,user0107@example.com,2022-03-21,0
+C0109,2022-05-24,48,Female,Egypt,31200.0,Gold,248.73,5,156.8,5,user0108@example.com,2023-06-03,0
+C0110,2022-05-12,18,Male,Morocco,40000.0,Silver,187.96,2,180.2,2,user0109@mail.test,2023-05-24,1
+C0111,2023-03-28,43,Male,France,51200.0,Gold,195.66,4,176.4,4,user0110@mail.test,2023-10-23,0
+C0112,2022-08-22,41,Female,Morocco,47500.0,Silver,368.68,2,170.9,5,user0111@demo.org,2023-02-14,0
+C0113,2023-05-26,31,Male,Egypt,42200.0,Silver,440.81,3,164.9,4,user0112@mail.test,2023-07-22,1
+C0114,2023-10-04,21,Female,Egypt,70500.0,Gold,288.62,5,159.1,3,user0113@example.com,2024-01-20,0
+C0115,2022-03-04,39,Female,Saudi Arabia,25000.0,Bronze,95.88,3,175.1,3,user0114@demo.org,2023-02-18,0
+C0116,2023-08-16,32,Female,Morocco,37300.0,Silver,107.88,3,162.6,4,user0115@example.com,2023-10-11,0
+C0117,2021-07-05,41,Male,Morocco,68400.0,Gold,385.25,9,183.9,4,user0116@mail.test,2021-12-11,0
+C0118,2023-10-01,38,Male,Algeria,70900.0,Gold,133.95,2,165.0,4,user0117@mail.test,2024-07-06,0
+C0119,2021-07-14,57,Female,Morocco,24400.0,Bronze,122.72,3,163.5,3,user0118@example.com,2021-10-19,0
+C0120,2023-07-21,35,Male,Saudi Arabia,34000.0,Silver,95.0,3,174.8,3,user0119@mail.test,2024-08-13,1
+C0121,2022-03-04,26,Male,Saudi Arabia,66900.0,Gold,67.63,9,177.2,4,user0120@mail.test,2022-11-19,0
+C0122,2023-11-23,40,Male,Egypt,51300.0,Gold,594.78,8,172.2,4,user0121@demo.org,2023-12-05,0
+C0123,2021-05-22,41,Male,Saudi Arabia,44900.0,Silver,143.68,4,163.3,4,user0122@example.com,2021-08-29,1
+C0124,2022-05-25,54,Female,Jordan,41000.0,Silver,386.31,4,159.9,4,user0123@demo.org,2023-03-17,0
+C0125,2023-09-15,48,Male,Jordan,36500.0,Silver,108.15,4,177.3,5,user0124@mail.test,2024-08-25,0
+C0126,2021-02-21,42,Female,Egypt,47200.0,Gold,90.01,1,161.2,3,user0125@demo.org,2022-02-26,0
+C0127,2021-10-18,56,Female,Egypt,41000.0,Silver,224.74,7,159.0,5,user0126@example.com,2022-09-23,0
+C0128,2021-04-02,24,Female,Egypt,35000.0,Silver,283.57,3,168.1,3,user0127@example.com,2021-05-02,0
+C0129,2021-12-18,30,Male,Saudi Arabia,38900.0,Silver,304.6,5,164.2,5,user0128@demo.org,2022-10-06,0
+C0130,2022-03-04,27,Male,France,27000.0,Bronze,114.07,3,189.4,5,user0129@mail.test,2022-04-17,0
+C0131,2022-11-09,33,Female,Egypt,49000.0,Gold,255.01,8,163.3,3,user0130@example.com,2022-12-10,0
+C0132,2021-10-10,21,Female,Egypt,128700.0,Platinum,152.9,6,154.7,5,user0131@demo.org,2022-07-14,0
+C0133,2021-06-23,46,Female,Algeria,19200.0,Platinum,130.75,3,156.6,4,user0132@example.com,2021-12-31,0
+C0134,2021-07-06,35,Male,Morocco,45300.0,Silver,120.84,1,173.7,3,user0133@mail.test,2022-03-22,1
+C0135,2023-10-25,20,Female,Saudi Arabia,24400.0,Bronze,91.39,1,162.2,3,user0134@demo.org,2024-09-29,1
+C0136,2023-11-10,26,Male,France,47000.0,Silver,166.28,3,169.3,5,user0135@demo.org,2023-12-08,0
+C0137,2021-08-31,42,Female,Morocco,42300.0,Silver,56.25,7,157.7,5,user0136@demo.org,2022-03-30,0
+C0138,2021-08-02,48,Female,Morocco,61100.0,Gold,319.71,2,155.6,3,user0137@mail.test,2022-07-01,1
+C0139,2021-03-01,62,Male,Morocco,81200.0,Platinum,133.56,11,178.2,3,user0138@example.com,2021-08-24,0
+C0140,2023-11-17,73,Female,Algeria,56000.0,Gold,299.64,4,150.2,4,user0139@example.com,2024-06-13,0
+C0141,2023-02-13,43,Female,Morocco,69500.0,Gold,80.58,4,155.9,3,user0140@demo.org,2023-08-31,0
+C0142,2023-04-14,26,Female,Morocco,12600.0,Bronze,82.76,3,150.8,5,user0141@mail.test,2024-04-10,0
+C0143,2021-11-15,18,Male,Morocco,69000.0,Gold,66.6,6,174.1,4,user0142@example.com,2021-12-05,0
+C0144,2022-12-03,41,Female,Morocco,48700.0,Silver,56.56,5,151.2,4,user0143@demo.org,2023-11-19,0
+C0145,2021-03-07,28,Female,United States,60000.0,Gold,85.25,5,162.2,5,user0144@demo.org,2022-01-27,1
+C0146,2023-01-11,33,Female,Egypt,22300.0,Bronze,58.95,3,171.8,3,user0145@example.com,2023-12-02,0
+C0147,2022-09-27,31,Male,United States,26100.0,Bronze,50.08,6,178.4,5,user0146@demo.org,2023-03-11,0
+C0148,2021-12-29,36,Male,United States,42200.0,Silver,148.1,3,167.5,2,user0147@mail.test,2022-07-23,0
+C0149,2023-02-17,51,Male,Jordan,44000.0,Silver,226.39,3,176.5,3,user0148@mail.test,2023-07-15,0
+C0150,2022-12-09,40,Female,Morocco,46300.0,Silver,238.47,0,156.1,5,user0149@demo.org,2023-03-20,1
+C0151,2022-04-26,36,Male,Jordan,64300.0,Gold,31.93,4,169.0,5,user0150@example.com,2023-04-11,0
+C0152,2021-07-24,26,Female,United States,16400.0,Bronze,96.32,3,161.3,3,user0151@example.com,2022-02-11,0
+C0153,2021-01-26,18,Male,Morocco,52300.0,Platinum,116.32,1,176.0,3,user0152@demo.org,2021-11-11,0
+C0154,2023-10-24,32,Male,France,38400.0,Silver,350.06,7,174.5,4,user0153@mail.test,2023-12-04,0
+C0155,2021-11-05,37,Male,Jordan,36300.0,Silver,116.24,2,174.5,3,user0154@example.com,2022-09-16,1
+C0156,2021-11-27,59,Male,Egypt,24200.0,Bronze,121.32,4,174.4,3,user0155@demo.org,2022-08-17,0
+C0157,2023-01-16,40,Male,Algeria,51100.0,Gold,41.84,3,172.4,4,user0156@example.com,2024-02-19,1
+C0158,2021-10-07,50,Female,Saudi Arabia,14800.0,Bronze,59.78,6,157.5,3,user0157@demo.org,2021-11-30,0
+C0159,2022-02-16,32,Male,United States,51200.0,Gold,39.29,4,170.5,2,user0158@example.com,2022-09-20,0
+C0160,2023-02-18,24,Male,Tunisia,18200.0,Bronze,129.1,3,193.6,2,user0159@mail.test,2023-09-10,1
+C0161,2022-10-14,26,Male,Egypt,37200.0,Silver,354.4,5,165.1,4,user0160@mail.test,2023-05-17,0
+C0162,2022-12-20,29,Male,Jordan,35300.0,Silver,72.6,2,170.9,2,user0161@demo.org,2023-01-11,1
+C0163,2021-01-06,64,Female,Egypt,82100.0,Silver,156.27,10,161.0,3,user0162@mail.test,2021-07-14,0
+C0164,2022-05-10,28,Male,Jordan,34100.0,Silver,65.0,3,189.3,2,user0163@demo.org,2022-09-07,0
+C0165,2022-06-05,48,Female,United States,31700.0,Silver,82.36,4,165.2,5,user0164@example.com,2023-02-07,0
+C0166,2022-11-24,27,Male,Morocco,29100.0,Gold,143.21,5,178.0,5,user0165@mail.test,2023-02-25,0
+C0167,2021-06-15,49,Male,Saudi Arabia,77400.0,Gold,604.62,5,176.7,3,user0166@demo.org,2021-12-06,0
+C0168,2021-06-24,43,Female,Egypt,53100.0,Gold,382.54,6,164.4,4,user0167@example.com,2022-02-27,0
+C0169,2023-04-15,36,Male,Morocco,33200.0,Silver,398.97,2,183.7,3,user0168@demo.org,2023-05-11,0
+C0170,2023-01-08,38,Male,Morocco,36100.0,Silver,263.02,3,183.5,3,user0169@demo.org,2023-11-18,0
+C0171,2023-06-08,30,Male,Egypt,18600.0,Bronze,100.73,7,171.8,5,user0170@demo.org,2024-03-20,0
+C0172,2021-10-24,43,Female,Morocco,49700.0,Silver,113.84,6,169.0,3,user0171@example.com,2021-11-16,0
+C0173,2023-12-29,33,Female,Morocco,17500.0,Bronze,63.38,4,155.4,3,user0172@demo.org,2024-01-24,0
+C0174,2021-10-26,23,Male,France,49500.0,Silver,125.39,3,175.7,3,user0173@demo.org,2022-10-01,0
+C0175,2022-12-14,23,Male,France,37400.0,Silver,358.28,4,169.4,5,user0174@example.com,2023-04-07,0
+C0176,2021-06-27,40,Male,France,119400.0,Platinum,567.78,2,173.7,1,user0175@mail.test,2022-06-06,0
+C0177,2023-10-03,57,Male,Egypt,28200.0,Bronze,544.04,5,163.2,3,user0176@example.com,2024-04-20,0
+C0178,2021-12-30,40,Female,Algeria,38900.0,Silver,162.65,5,175.1,4,user0177@mail.test,2022-05-16,0
+C0179,2023-05-29,37,Male,United States,89400.0,Gold,64.48,5,163.1,3,user0178@example.com,2023-09-16,0
+C0180,2021-12-29,41,Female,Morocco,70300.0,Gold,255.45,6,159.0,4,user0179@mail.test,2022-09-18,0
+C0181,2023-05-16,54,Male,Morocco,33100.0,Silver,456.85,5,166.4,5,user0180@mail.test,2023-06-29,0
+C0182,2022-05-13,41,Male,France,45500.0,Silver,412.75,9,169.1,2,user0181@mail.test,2022-10-21,1
+C0183,2021-03-10,33,Male,Morocco,38600.0,Silver,95.94,4,183.1,5,user0182@demo.org,2021-07-26,0
+C0184,2021-07-28,51,Male,Saudi Arabia,50300.0,Gold,55.89,8,179.1,2,user0183@demo.org,2021-09-28,0
+C0185,2023-01-19,43,Female,Tunisia,30500.0,Silver,47.26,5,140.8,5,user0184@example.com,2023-06-09,0
+C0186,2021-07-31,56,Female,Morocco,44100.0,Silver,82.04,3,162.3,4,user0185@example.com,2022-02-27,0
+C0187,2021-10-29,40,Female,Morocco,19900.0,Bronze,77.26,6,162.1,3,user0186@example.com,2022-07-27,0
+C0188,2022-08-17,23,Male,Tunisia,37500.0,Silver,110.02,4,185.5,3,user0187@demo.org,2022-09-21,0
+C0189,2021-10-05,22,Female,United States,42900.0,Bronze,234.65,3,169.9,4,user0188@example.com,2022-09-19,0
+C0190,2021-05-22,58,Male,Morocco,42000.0,Silver,110.55,2,180.2,4,user0189@example.com,2022-05-08,0
+C0191,2022-11-15,59,Female,Algeria,22700.0,Platinum,130.08,3,166.9,3,user0190@example.com,2023-08-19,0
+C0192,2023-01-25,36,Female,Algeria,61600.0,Gold,39.05,0,155.4,3,user0191@demo.org,2024-01-29,1
+C0193,2023-03-14,33,Female,Saudi Arabia,45400.0,Silver,78.51,2,166.6,3,user0192@mail.test,2023-09-01,1
+C0194,2023-10-31,56,Female,United States,33100.0,Silver,69.05,7,158.6,2,user0193@demo.org,2024-09-23,0
+C0195,2021-05-17,25,Female,Egypt,31700.0,Silver,26.44,4,154.9,3,user0194@example.com,2022-03-04,0
+C0196,2022-04-13,27,Female,Morocco,18600.0,Bronze,90.49,4,160.9,2,user0195@mail.test,2022-11-24,0
+C0197,2021-09-14,46,Male,United States,26900.0,Bronze,30.89,2,175.9,3,user0196@mail.test,2021-11-25,0
+C0198,2023-09-14,33,Male,Egypt,30200.0,Silver,93.8,4,178.7,4,user0197@example.com,2024-04-24,1
+C0199,2022-08-15,38,Male,United States,69800.0,Gold,190.57,2,177.1,4,user0198@demo.org,2023-08-10,0
+C0200,2021-04-18,36,Female,Jordan,29600.0,Bronze,341.77,2,157.5,5,user0199@demo.org,2022-05-16,0
+C0201,2023-01-28,42,Male,Morocco,55200.0,Bronze,76.99,4,176.4,1,user0200@example.com,2023-07-26,0
+C0202,2021-02-17,55,Male,United States,35800.0,Silver,149.27,8,180.9,4,user0201@demo.org,2021-05-27,0
+C0203,2021-10-28,39,Male,Egypt,45200.0,Silver,87.6,6,163.6,4,user0202@mail.test,2022-08-23,0
+C0204,2023-03-01,46,Female,Algeria,40100.0,Silver,32.18,6,163.3,4,user0203@mail.test,2023-04-01,0
+C0205,2022-07-09,18,Male,Egypt,49900.0,Silver,398.35,3,165.3,4,user0204@demo.org,2022-09-08,1
+C0206,2023-04-14,37,Male,United States,31300.0,Silver,152.37,6,176.9,3,user0205@mail.test,2023-11-25,0
+C0207,2022-09-18,28,Female,United States,18200.0,Platinum,170.92,3,157.6,4,user0206@example.com,2023-10-19,0
+C0208,2023-07-13,23,Female,Egypt,19000.0,Bronze,350.8,4,167.3,3,user0207@demo.org,2023-11-22,0
+C0209,2022-09-09,27,Male,United States,28800.0,Silver,92.42,4,175.9,4,user0208@demo.org,2023-03-05,0
+C0210,2021-03-04,34,Female,France,22100.0,Bronze,39.55,3,158.5,2,user0209@example.com,2021-07-11,1
+C0211,2021-03-20,49,Female,United States,52500.0,Gold,74.7,4,151.0,4,user0210@demo.org,2021-09-12,1
+C0212,2023-05-01,22,Male,France,28400.0,Bronze,37.96,4,171.3,4,user0211@mail.test,2023-05-04,0
+C0213,2021-02-12,38,Female,Tunisia,116800.0,Gold,473.0,3,160.0,3,user0212@example.com,2021-10-08,0
+C0214,2022-02-17,32,Female,Saudi Arabia,17500.0,Bronze,413.55,2,161.2,3,user0213@mail.test,2022-10-13,0
+C0215,2021-01-18,34,Female,Saudi Arabia,42600.0,Silver,158.76,7,165.3,3,user0214@demo.org,2021-05-24,0
+C0216,2021-11-29,50,Male,Morocco,26500.0,Platinum,211.82,6,182.7,5,user0215@example.com,2022-03-15,0
+C0217,2022-10-14,44,Female,Jordan,33700.0,Silver,265.88,5,160.4,5,user0216@demo.org,2023-08-14,0
+C0218,2021-07-09,54,Male,Saudi Arabia,48200.0,Silver,456.17,0,177.6,5,user0217@demo.org,2021-09-22,0
+C0219,2022-05-26,36,Female,Saudi Arabia,13900.0,Bronze,390.03,1,170.8,3,user0218@demo.org,2022-06-14,1
+C0220,2023-12-27,30,Male,Morocco,41800.0,Silver,21.56,2,176.5,4,user0219@example.com,2024-01-13,0
+C0221,2021-03-19,35,Male,Algeria,92200.0,Platinum,118.75,10,178.9,4,user0220@example.com,2022-03-06,0
+C0222,2021-03-11,41,Male,Egypt,33500.0,Silver,136.29,2,172.8,3,user0221@demo.org,2021-08-04,0
+C0223,2021-10-25,40,Male,France,45800.0,Silver,81.05,4,175.8,2,user0222@mail.test,2021-12-05,0
+C0224,2023-06-25,25,Female,Morocco,57000.0,Gold,128.18,5,155.2,4,user0223@mail.test,2024-06-10,1
+C0225,2022-03-21,39,Male,Tunisia,37600.0,Silver,189.85,7,183.8,4,user0224@mail.test,2022-05-20,0
+C0226,2022-12-02,41,Male,Morocco,31600.0,Silver,178.04,4,185.7,2,user0225@mail.test,2023-04-16,0
+C0227,2021-02-07,68,Male,Morocco,17900.0,Bronze,229.26,4,184.7,3,user0226@mail.test,2021-02-16,0
+C0228,2023-03-16,61,Male,Jordan,63400.0,Gold,169.65,5,172.1,4,user0227@mail.test,2023-12-12,0
+C0229,2021-03-15,28,Male,Algeria,35100.0,Gold,9.42,7,168.3,4,user0228@mail.test,2021-12-20,0
+C0230,2023-02-19,35,Female,Morocco,24800.0,Bronze,95.23,2,163.1,5,user0229@mail.test,2023-12-18,1
+C0231,2021-06-11,20,Female,Saudi Arabia,36400.0,Silver,175.14,3,165.6,2,user0230@mail.test,2021-09-24,0
+C0232,2023-07-29,31,Female,France,29100.0,Bronze,263.39,3,165.6,5,user0231@demo.org,2023-12-07,0
+C0233,2021-11-21,42,Female,Algeria,32700.0,Silver,244.6,2,146.4,2,user0232@mail.test,2022-12-01,1
+C0234,2021-07-21,52,Male,Egypt,58600.0,Gold,148.11,5,178.0,2,user0233@demo.org,2022-06-14,1
+C0235,2022-01-04,29,Male,Saudi Arabia,20400.0,Bronze,70.34,3,167.4,4,user0234@mail.test,2022-01-19,0
+C0236,2021-01-01,30,Female,France,60200.0,Gold,155.03,6,159.5,2,user0235@demo.org,2021-10-05,0
+C0237,2021-06-30,18,Female,France,18000.0,Bronze,21.28,3,162.2,4,user0236@mail.test,2022-05-21,0
+C0238,2022-10-18,36,Male,Jordan,29300.0,Bronze,81.9,5,186.4,4,user0237@mail.test,2023-05-30,1
+C0239,2021-11-26,25,Male,United States,85400.0,Platinum,426.5,5,180.0,3,user0238@example.com,2022-08-09,0
+C0240,2022-01-23,32,Male,Morocco,63500.0,Gold,157.85,6,165.3,3,user0239@example.com,2022-01-24,0
+C0241,2023-06-03,27,Male,Algeria,38200.0,Silver,182.97,4,176.4,4,user0240@demo.org,2023-06-15,0
+C0242,2021-05-16,37,Male,Algeria,26100.0,Bronze,35.72,6,190.0,3,user0241@example.com,2021-05-31,0
+C0243,2022-03-10,18,Male,Jordan,26600.0,Gold,257.09,4,168.9,5,user0242@example.com,2022-05-13,0
+C0244,2021-07-23,20,Female,Morocco,35500.0,Silver,121.58,4,144.9,3,user0243@demo.org,2022-08-23,0
+C0245,2022-06-13,64,Male,Morocco,49300.0,Silver,192.83,8,184.9,3,user0244@demo.org,2023-02-22,0
+C0246,2021-12-30,23,Female,France,33900.0,Platinum,200.96,3,153.9,2,user0245@mail.test,2022-11-08,0
+C0247,2021-02-20,25,Female,Morocco,35500.0,Silver,268.28,4,163.3,3,user0246@mail.test,2021-06-18,0
+C0248,2021-03-18,60,Female,Tunisia,42900.0,Silver,164.5,6,162.9,2,user0247@mail.test,2022-03-28,0
+C0249,2023-07-23,73,Female,Egypt,26800.0,Bronze,115.86,5,166.2,2,user0248@demo.org,2023-10-11,0
+C0250,2021-03-04,24,Female,France,28200.0,Bronze,44.82,8,170.4,4,user0249@mail.test,2022-02-28,0
+C0251,2023-05-08,34,Male,Algeria,58600.0,Bronze,40.82,6,166.6,2,user0250@example.com,2023-05-21,0
+C0252,2023-10-01,42,Male,Egypt,22400.0,Gold,138.82,3,173.6,5,user0251@mail.test,2023-10-10,0
+C0253,2022-05-26,59,Female,Egypt,43000.0,Silver,185.57,3,163.4,4,user0252@example.com,2022-06-27,0
+C0254,2021-12-08,26,Male,United States,25100.0,Bronze,182.11,2,182.3,4,user0253@demo.org,2022-10-20,1
+C0255,2023-05-01,35,Female,United States,41200.0,Platinum,70.43,3,158.6,3,user0254@example.com,2023-08-12,0
+C0256,2023-12-12,47,Female,Saudi Arabia,36100.0,Silver,86.88,7,159.8,4,user0255@mail.test,2024-06-10,1
+C0257,2021-05-12,43,Male,United States,81100.0,Gold,202.66,4,172.2,4,user0256@example.com,2021-11-17,0
+C0258,2023-11-22,33,Female,Algeria,48400.0,Silver,104.86,4,156.3,3,user0257@demo.org,2024-10-03,0
+C0259,2023-10-31,36,Male,Saudi Arabia,21900.0,Bronze,545.1,5,203.2,4,user0258@mail.test,2024-03-19,0
+C0260,2021-06-06,22,Male,Morocco,47300.0,Silver,92.37,6,179.8,2,user0259@example.com,2021-06-09,0
+C0261,2021-03-01,35,Female,Egypt,27600.0,Gold,173.9,1,159.3,2,user0260@demo.org,2021-08-03,1
+C0262,2023-02-22,35,Female,Egypt,30200.0,Silver,235.02,5,166.9,2,user0261@mail.test,2023-06-17,1
+C0263,2021-03-27,41,Male,Morocco,47300.0,Silver,277.27,3,170.5,4,user0262@mail.test,2022-01-13,1
+C0264,2022-10-20,31,Male,Morocco,30400.0,Silver,90.83,8,173.5,4,user0263@example.com,2023-08-16,0
+C0265,2021-03-12,44,Male,France,62900.0,Gold,245.33,4,171.3,5,user0264@example.com,2021-04-18,0
+C0266,2023-01-27,50,Female,Egypt,31000.0,Bronze,180.27,0,169.2,3,user0265@demo.org,2023-12-10,1
+C0267,2021-09-11,40,Female,Tunisia,30900.0,Silver,203.19,3,153.8,4,user0266@mail.test,2021-10-10,0
+C0268,2021-04-16,42,Male,Egypt,30800.0,Silver,144.93,5,183.7,3,user0267@mail.test,2021-12-20,1
+C0269,2021-03-14,39,Male,Morocco,31400.0,Silver,238.36,3,173.9,3,user0268@demo.org,2021-08-17,0
+C0270,2021-07-26,38,Female,France,65800.0,Gold,200.24,6,162.1,4,user0269@mail.test,2021-11-24,0
+C0271,2022-08-16,29,Male,Algeria,49400.0,Silver,46.34,4,184.4,4,user0270@mail.test,2023-02-25,0
+C0272,2021-03-25,42,Male,Egypt,89400.0,Platinum,223.74,4,174.7,3,user0271@demo.org,2021-07-27,0
+C0273,2023-05-29,37,Female,Morocco,110500.0,Platinum,270.5,7,159.1,4,user0272@example.com,2024-04-10,0
+C0274,2022-10-24,63,Female,Morocco,30300.0,Silver,225.03,5,160.7,3,user0273@mail.test,2023-11-14,0
+C0275,2021-11-22,57,Male,Saudi Arabia,47700.0,Silver,167.66,4,182.2,3,user0274@demo.org,2022-10-14,0
+C0276,2023-12-17,43,Male,Saudi Arabia,24600.0,Bronze,389.66,2,158.0,3,user0275@example.com,2024-06-10,0
+C0277,2022-12-23,29,Female,Egypt,26200.0,Bronze,118.46,6,158.8,2,user0276@example.com,2023-07-12,0
+C0278,2023-01-06,25,Female,Morocco,27100.0,Bronze,84.82,7,153.9,4,user0277@mail.test,2023-07-04,0
+C0279,2021-07-10,52,Male,Saudi Arabia,27700.0,Bronze,319.72,3,180.1,3,user0278@example.com,2022-05-23,0
+C0280,2023-02-18,41,Female,Tunisia,25600.0,Bronze,115.43,4,169.1,3,user0279@example.com,2023-09-27,0
+C0281,2022-09-05,44,Male,United States,39400.0,Silver,147.52,6,169.2,3,user0280@example.com,2023-03-11,1
+C0282,2023-12-15,18,Male,Saudi Arabia,19500.0,Bronze,153.61,3,180.1,4,user0281@demo.org,2024-05-27,1
+C0283,2022-06-08,49,Male,Morocco,63800.0,Platinum,197.94,6,171.7,4,user0282@example.com,2022-11-05,0
+C0284,2023-01-13,43,Female,Egypt,27600.0,Bronze,196.95,5,158.5,3,user0283@demo.org,2023-08-22,0
+C0285,2022-01-09,25,Female,Egypt,127300.0,Platinum,376.66,5,170.5,3,user0284@mail.test,2022-10-11,0
+C0286,2021-02-13,32,Female,France,31200.0,Bronze,81.19,6,170.4,4,user0285@demo.org,2021-08-05,0
+C0287,2021-05-21,41,Male,Algeria,42500.0,Silver,53.9,6,180.3,1,user0286@example.com,2022-04-08,0
+C0288,2023-08-08,39,Female,Algeria,22600.0,Silver,51.68,2,153.0,4,user0287@demo.org,2024-07-03,1
+C0289,2023-03-20,34,Female,Tunisia,83700.0,Platinum,426.5,1,175.7,2,user0288@mail.test,2023-09-08,1
+C0290,2022-02-04,37,Female,Tunisia,65900.0,Gold,142.88,6,164.3,2,user0289@demo.org,2023-02-02,0
+C0291,2023-02-04,35,Female,Tunisia,44800.0,Silver,259.76,5,160.1,3,user0290@demo.org,2023-04-15,0
+C0292,2021-01-05,40,Female,Morocco,22200.0,Bronze,206.34,3,167.7,5,user0291@mail.test,2022-01-12,0
+C0293,2021-02-10,56,Male,Morocco,50500.0,Gold,159.24,1,164.3,5,user0292@demo.org,2021-06-08,0
+C0294,2022-07-10,18,Male,Egypt,20400.0,Bronze,59.27,1,183.8,4,user0293@example.com,2023-02-21,1
+C0295,2022-11-16,35,Female,United States,75600.0,Gold,301.52,4,158.0,4,user0294@mail.test,2023-03-10,0
+C0296,2023-10-24,40,Female,Morocco,58700.0,Gold,163.65,3,163.9,2,user0295@mail.test,2024-04-18,0
+C0297,2023-04-12,42,Female,Jordan,43200.0,Silver,50.97,6,154.9,4,user0296@demo.org,2023-08-26,0
+C0298,2021-10-09,34,Male,United States,13000.0,Bronze,80.39,6,169.3,3,user0297@demo.org,2022-07-18,0
+C0299,2023-06-12,18,Female,United States,21700.0,Bronze,28.74,2,161.9,3,user0298@demo.org,2023-07-15,0
+C0300,2022-06-23,42,Male,Morocco,56400.0,Gold,115.58,1,165.9,4,user0299@demo.org,2023-05-24,1
+C0301,2023-06-24,59,Female,Egypt,80900.0,Platinum,198.9,3,161.1,3,user0300@demo.org,2024-06-19,0
+C0302,2021-07-10,20,Female,Morocco,56600.0,Gold,148.78,6,160.5,4,user0301@demo.org,2022-02-20,0
+C0303,2021-01-29,48,Male,Jordan,21200.0,Bronze,104.83,1,179.5,2,user0302@mail.test,2021-09-05,0
+C0304,2021-03-05,34,Male,United States,44500.0,Silver,157.65,2,167.7,4,user0303@example.com,2021-12-10,0
+C0305,2023-12-22,37,Male,France,62900.0,Gold,240.89,2,179.7,3,user0304@demo.org,2024-03-11,0
+C0306,2021-03-30,25,Male,Egypt,17100.0,Bronze,221.7,2,178.2,3,user0305@example.com,2022-01-24,1
+C0307,2023-10-26,34,Male,Egypt,38700.0,Silver,287.04,4,185.6,4,user0306@example.com,2024-01-22,0
+C0308,2023-03-08,54,Male,Saudi Arabia,51200.0,Gold,84.9,4,179.0,2,user0307@demo.org,2023-12-03,0
+C0309,2021-06-09,45,Female,France,37000.0,Silver,302.53,3,162.0,4,user0308@example.com,2021-10-09,0
+C0310,2023-08-05,59,Female,France,20400.0,Bronze,124.3,3,152.8,3,user0309@example.com,2024-05-29,0
+C0311,2021-06-07,52,Female,Morocco,38500.0,Silver,109.69,2,154.2,3,user0310@mail.test,2022-04-19,1
+C0312,2021-06-06,43,Female,Tunisia,36000.0,Silver,58.93,3,157.3,3,user0311@mail.test,2021-08-29,0
+C0313,2022-09-23,59,Female,Morocco,43900.0,Silver,202.44,6,149.2,3,user0312@example.com,2023-05-28,0
+C0314,2021-11-12,43,Female,Algeria,32400.0,Bronze,181.19,5,170.4,3,user0313@mail.test,2022-05-30,0
+C0315,2021-11-15,48,Female,Morocco,35500.0,Silver,89.4,10,164.2,4,user0314@example.com,2022-03-13,0
+C0316,2021-08-02,34,Male,Egypt,38200.0,Silver,93.4,6,178.1,3,user0315@example.com,2022-03-25,0
+C0317,2022-10-28,39,Female,Jordan,49400.0,Silver,137.99,4,148.9,3,user0316@example.com,2023-11-29,0
+C0318,2021-01-30,30,Male,Morocco,32800.0,Silver,103.74,8,177.7,5,user0317@demo.org,2021-01-31,0
+C0319,2021-09-26,50,Female,Saudi Arabia,36600.0,Silver,73.74,2,162.0,4,user0318@mail.test,2022-10-13,0
+C0320,2022-08-30,24,Male,Saudi Arabia,37200.0,Silver,53.63,3,169.8,3,user0319@demo.org,2023-08-07,1
+C0321,2022-06-17,47,Male,Egypt,18100.0,Bronze,262.76,4,182.7,4,user0320@example.com,2023-01-15,0
+C0322,2023-02-06,36,Female,France,48900.0,Silver,105.5,4,167.2,3,user0321@demo.org,2023-10-08,0
+C0323,2021-08-25,52,Female,Jordan,44600.0,Silver,197.09,3,159.1,3,user0322@demo.org,2022-01-20,0
+C0324,2022-12-11,47,Male,Algeria,43800.0,Silver,223.9,4,173.6,3,user0323@mail.test,2023-02-01,0
+C0325,2023-04-13,60,Male,Egypt,72700.0,Gold,243.8,5,162.8,2,user0324@demo.org,2023-11-28,1
+C0326,2022-03-01,47,Female,Saudi Arabia,17900.0,Bronze,190.55,3,159.9,4,user0325@mail.test,2023-01-21,1
+C0327,2021-10-09,19,Male,Egypt,14000.0,Bronze,159.66,5,173.6,3,user0326@mail.test,2022-01-10,0
+C0328,2022-08-31,37,Male,Egypt,45000.0,Silver,88.32,3,171.0,3,user0327@demo.org,2023-06-14,0
+C0329,2022-09-26,24,Female,Morocco,35500.0,Silver,110.62,2,162.3,3,user0328@mail.test,2023-07-22,0
+C0330,2021-04-14,32,Female,Tunisia,41200.0,Bronze,308.5,10,168.5,5,user0329@mail.test,2022-02-11,0
+C0331,2022-09-11,56,Female,Algeria,37300.0,Silver,95.0,4,157.9,3,user0330@demo.org,2023-01-25,0
+C0332,2021-06-18,46,Male,France,57600.0,Gold,162.88,9,190.3,2,user0331@mail.test,2021-11-22,0
+C0333,2022-09-15,30,Male,Saudi Arabia,57200.0,Gold,233.18,7,182.5,2,user0332@example.com,2023-03-01,0
+C0334,2023-10-18,26,Male,Saudi Arabia,45100.0,Silver,396.1,5,174.8,4,user0333@demo.org,2024-09-23,0
+C0335,2022-08-12,38,Male,Saudi Arabia,35700.0,Silver,278.9,6,167.1,5,user0334@demo.org,2023-08-07,0
+C0336,2023-04-14,23,Female,Saudi Arabia,13700.0,Bronze,54.02,3,159.0,3,user0335@example.com,2023-09-27,1
+C0337,2021-12-06,30,Female,Saudi Arabia,53100.0,Gold,203.97,3,162.0,5,user0336@demo.org,2022-12-29,0
+C0338,2023-10-08,42,Female,Morocco,71800.0,Gold,210.34,5,159.3,4,user0337@example.com,2024-05-23,1
+C0339,2023-06-09,52,Female,Morocco,59600.0,Gold,131.18,5,167.8,3,user0338@example.com,2023-11-10,0
+C0340,2023-10-01,45,Male,Tunisia,28500.0,Bronze,135.72,2,172.7,3,user0339@demo.org,2023-10-02,0
+C0341,2023-03-24,18,Male,Saudi Arabia,45700.0,Silver,88.03,4,174.3,4,user0340@mail.test,2023-11-23,0
+C0342,2022-12-13,42,Female,Tunisia,61000.0,Gold,146.66,1,151.9,4,user0341@mail.test,2023-08-28,0
+C0343,2022-07-29,39,Male,Morocco,81600.0,Silver,126.6,11,166.3,4,user0342@mail.test,2023-08-20,0
+C0344,2023-10-14,43,Male,United States,28100.0,Silver,142.96,4,170.2,3,user0343@example.com,2024-07-27,0
+C0345,2023-07-18,57,Female,Morocco,41800.0,Silver,113.22,8,155.1,3,user0344@demo.org,2023-07-30,0
+C0346,2022-04-02,18,Male,Egypt,47200.0,Silver,422.06,0,173.6,5,user0345@example.com,2022-11-15,0
+C0347,2021-04-04,31,Male,Morocco,38900.0,Silver,158.8,5,187.9,4,user0346@demo.org,2022-01-26,0
+C0348,2021-01-04,45,Male,Morocco,25600.0,Bronze,124.07,2,176.6,4,user0347@demo.org,2021-07-22,0
+C0349,2021-09-13,19,Male,Algeria,41000.0,Silver,123.25,2,163.7,4,user0348@example.com,2022-03-04,1
+C0350,2021-03-10,56,Female,Egypt,59600.0,Bronze,127.7,4,162.9,4,user0349@mail.test,2022-01-28,0
+C0351,2021-08-20,42,Male,United States,43100.0,Silver,50.95,3,178.8,4,user0350@example.com,2022-04-21,0
+C0352,2021-04-30,48,Female,Saudi Arabia,47800.0,Silver,264.71,4,160.1,4,user0351@mail.test,2022-01-27,1
+C0353,2023-12-11,31,Male,Saudi Arabia,33700.0,Silver,335.06,3,166.5,4,user0352@mail.test,2024-06-14,0
+C0354,2021-04-15,48,Female,Saudi Arabia,84300.0,Platinum,126.91,0,171.8,4,user0353@example.com,2021-08-04,1
+C0355,2022-11-18,51,Female,Morocco,29500.0,Bronze,281.95,5,172.1,3,user0354@demo.org,2023-06-14,0
+C0356,2022-01-21,41,Male,Tunisia,31600.0,Gold,584.69,4,179.6,4,user0355@demo.org,2023-02-08,0
+C0357,2021-07-10,41,Female,Jordan,41300.0,Silver,485.91,5,159.9,4,user0356@example.com,2022-03-08,0
+C0358,2023-02-07,41,Female,France,61000.0,Gold,391.71,3,152.6,3,user0357@demo.org,2023-11-17,0
+C0359,2023-11-29,28,Male,Saudi Arabia,18800.0,Bronze,47.34,4,186.9,5,user0358@demo.org,2024-01-18,1
+C0360,2023-05-16,36,Female,Morocco,21900.0,Gold,48.06,4,168.1,2,user0359@mail.test,2024-06-14,1
+C0361,2023-12-04,36,Male,Algeria,15800.0,Bronze,186.53,3,171.1,5,user0360@demo.org,2024-03-11,0
+C0362,2022-10-09,43,Female,Egypt,42400.0,Silver,148.25,3,163.0,3,user0361@example.com,2023-11-01,0
+C0363,2023-01-08,50,Female,Morocco,26600.0,Bronze,17.84,3,170.3,4,user0362@demo.org,2023-07-05,0
+C0364,2021-06-10,25,Male,Egypt,30200.0,Silver,98.07,5,176.1,5,user0363@demo.org,2022-06-12,0
+C0365,2023-07-23,36,Female,Jordan,53200.0,Gold,239.29,7,168.9,3,user0364@mail.test,2024-07-13,0
+C0366,2023-03-30,56,Female,United States,34400.0,Silver,123.78,0,164.7,3,user0365@demo.org,2024-01-26,0
+C0367,2021-10-06,29,Male,France,41300.0,Silver,147.65,8,175.4,4,user0366@demo.org,2022-10-07,0
+C0368,2022-01-24,28,Male,Jordan,32300.0,Bronze,52.09,2,177.6,3,user0367@demo.org,2022-09-25,0
+C0369,2022-10-31,40,Female,Morocco,55200.0,Gold,115.72,5,166.9,4,user0368@mail.test,2023-10-05,1
+C0370,2021-01-15,48,Male,Algeria,53700.0,Gold,248.31,4,178.5,3,user0369@demo.org,2021-03-25,1
+C0371,2023-06-15,38,Male,Saudi Arabia,29400.0,Bronze,92.79,4,169.3,4,user0370@mail.test,2023-07-14,0
+C0372,2021-11-04,54,Male,United States,42000.0,Silver,325.85,3,184.0,2,user0371@mail.test,2022-06-09,0
+C0373,2021-03-24,48,Female,Morocco,69300.0,Silver,179.89,9,172.0,2,user0372@example.com,2022-02-11,0
+C0374,2021-12-29,48,Male,Tunisia,51700.0,Gold,212.85,7,167.1,3,user0373@example.com,2022-10-31,0
+C0375,2023-07-05,45,Male,Egypt,22600.0,Bronze,194.99,3,175.5,2,user0374@demo.org,2024-02-01,1
+C0376,2021-10-28,66,Male,Morocco,66000.0,Gold,256.79,7,168.6,5,user0375@mail.test,2022-05-24,0
+C0377,2022-08-14,36,Female,Saudi Arabia,24200.0,Bronze,57.54,4,164.9,2,user0376@mail.test,2023-04-15,1
+C0378,2023-06-08,18,Male,Morocco,63700.0,Gold,87.83,5,175.0,3,user0377@demo.org,2024-05-20,0
+C0379,2021-02-06,57,Male,Morocco,73300.0,Gold,23.89,6,173.9,4,user0378@example.com,2022-01-08,0
+C0380,2023-04-13,33,Female,United States,43900.0,Bronze,117.16,4,164.5,3,user0379@example.com,2023-05-27,0
+C0381,2021-11-13,39,Male,Egypt,43400.0,Bronze,72.12,4,168.0,2,user0380@example.com,2022-07-09,0
+C0382,2023-02-01,54,Male,Algeria,41200.0,Silver,98.87,3,166.0,5,user0381@example.com,2023-07-03,0
+C0383,2021-07-25,19,Female,Egypt,46200.0,Silver,128.65,4,159.3,3,user0382@mail.test,2022-06-09,1
+C0384,2021-06-02,23,Male,France,29900.0,Bronze,151.44,6,167.3,3,user0383@demo.org,2021-12-21,0
+C0385,2023-05-14,19,Female,Saudi Arabia,37800.0,Silver,128.35,3,154.5,3,user0384@example.com,2024-06-13,1
+C0386,2023-06-04,28,Male,United States,54700.0,Gold,142.1,5,180.9,4,user0385@mail.test,2023-11-24,0
+C0387,2023-12-11,43,Male,United States,32400.0,Silver,175.56,5,178.7,4,user0386@example.com,2024-09-07,0
+C0388,2023-01-12,44,Male,Saudi Arabia,31900.0,Silver,133.41,2,166.2,3,user0387@demo.org,2023-02-25,1
+C0389,2022-05-26,41,Female,Tunisia,24000.0,Bronze,233.2,7,164.5,3,user0388@mail.test,2023-06-03,0
+C0390,2021-08-02,21,Male,Egypt,21500.0,Bronze,123.18,5,168.7,3,user0389@example.com,2021-10-03,1
+C0391,2021-11-20,18,Female,Morocco,14800.0,Bronze,314.65,3,161.4,4,user0390@mail.test,2022-04-20,0
+C0392,2022-12-11,39,Male,United States,56200.0,Gold,69.86,2,181.3,2,user0391@mail.test,2023-11-11,0
+C0393,2022-01-14,32,Male,Jordan,86200.0,Platinum,149.52,5,172.1,5,user0392@demo.org,2023-02-05,0
+C0394,2022-06-14,44,Female,Morocco,79900.0,Gold,110.32,7,163.2,3,user0393@example.com,2022-12-25,0
+C0395,2021-07-04,46,Female,Saudi Arabia,20500.0,Bronze,144.42,2,166.2,4,user0394@demo.org,2022-01-14,0
+C0396,2022-04-27,40,Female,Algeria,56500.0,Gold,69.96,5,151.3,2,user0395@demo.org,2022-05-17,0
+C0397,2021-09-18,47,Male,France,81600.0,Platinum,51.92,7,175.7,2,user0396@example.com,2022-10-14,0
+C0398,2021-05-03,41,Female,Tunisia,33500.0,Silver,69.84,2,152.0,3,user0397@demo.org,2021-05-10,0
+C0399,2021-05-25,44,Female,Saudi Arabia,44000.0,Silver,44.03,2,161.3,3,user0398@demo.org,2021-06-05,0
+C0400,2022-07-22,30,Female,United States,15200.0,Bronze,102.39,7,155.0,3,user0399@mail.test,2023-01-27,0
+C0401,2022-02-06,36,Female,Egypt,44500.0,Gold,168.11,9,170.6,3,user0400@example.com,2022-02-08,0
+C0402,2021-04-20,40,Female,Tunisia,25300.0,Bronze,30.82,4,155.1,4,user0401@mail.test,2021-06-25,0
+C0403,2022-07-18,48,Female,Egypt,47400.0,Silver,112.76,4,152.1,3,user0402@mail.test,2023-03-26,0
+C0404,2021-06-29,33,Female,France,19100.0,Bronze,244.34,3,162.8,3,user0403@example.com,2022-04-07,1
+C0405,2021-01-17,44,Male,Saudi Arabia,53700.0,Gold,377.21,4,176.6,3,user0404@mail.test,2021-05-16,0
+C0406,2021-05-26,35,Female,United States,62100.0,Silver,276.18,6,153.0,5,user0405@demo.org,2022-04-09,0
+C0407,2022-05-07,37,Male,France,28000.0,Bronze,10.57,6,176.4,4,user0406@mail.test,2023-01-05,0
+C0408,2023-11-11,48,Male,Saudi Arabia,26000.0,Bronze,137.19,1,166.7,4,user0407@demo.org,2024-02-11,0
+C0409,2021-09-22,18,Male,Algeria,12800.0,Bronze,249.55,3,168.0,2,user0408@example.com,2022-07-04,1
+C0410,2021-11-08,22,Female,Saudi Arabia,31000.0,Silver,92.5,10,158.5,2,user0409@demo.org,2022-07-03,0
+C0411,2021-09-23,20,Female,United States,26400.0,Bronze,45.71,2,166.8,2,user0410@mail.test,2022-08-14,1
+C0412,2022-01-24,18,Male,Egypt,16800.0,Bronze,245.64,6,176.1,5,user0411@example.com,2022-03-27,0
+C0413,2023-02-25,30,Male,Saudi Arabia,46100.0,Silver,337.62,7,172.1,4,user0412@demo.org,2023-05-29,0
+C0414,2021-12-19,47,Male,Saudi Arabia,35100.0,Silver,135.91,4,176.6,3,user0413@mail.test,2022-04-20,0
+C0415,2022-12-22,35,Female,Morocco,24100.0,Bronze,45.26,4,147.4,3,user0414@mail.test,2023-05-08,0
+C0416,2023-09-11,40,Female,Morocco,31800.0,Silver,28.43,5,164.3,3,user0415@example.com,2024-08-31,0
+C0417,2023-11-03,51,Female,United States,71800.0,Gold,220.89,6,170.8,3,user0416@demo.org,2024-08-22,0
+C0418,2022-09-09,54,Female,United States,59400.0,Gold,98.42,5,169.4,4,user0417@example.com,2023-04-15,0
+C0419,2023-02-20,37,Male,United States,37600.0,Silver,132.09,3,173.8,3,user0418@example.com,2023-09-24,0
+C0420,2023-10-04,54,Female,Morocco,59800.0,Gold,141.46,6,154.9,5,user0419@example.com,2024-09-22,1
+C0421,2023-05-12,39,Female,Egypt,24000.0,Bronze,61.99,3,158.8,5,user0420@mail.test,2023-11-07,0
+C0422,2021-11-25,28,Male,Morocco,37500.0,Silver,28.02,1,173.6,5,user0421@example.com,2022-02-23,0
+C0423,2021-05-25,31,Male,France,40500.0,Silver,101.29,6,176.1,4,user0422@demo.org,2021-07-19,0
+C0424,2021-05-06,20,Female,Algeria,27800.0,Silver,143.12,6,155.1,3,user0423@example.com,2021-09-15,0
+C0425,2023-08-24,27,Female,Egypt,44500.0,Silver,167.33,3,167.7,4,user0424@demo.org,2024-05-11,0
+C0426,2022-09-02,34,Male,United States,27300.0,Bronze,74.57,2,176.4,3,user0425@demo.org,2023-03-09,1
+C0427,2021-11-21,48,Male,Morocco,54500.0,Bronze,352.24,4,176.9,5,user0426@demo.org,2022-05-09,0
+C0428,2022-01-14,59,Male,Egypt,60100.0,Gold,63.8,4,164.1,4,user0427@example.com,2022-07-25,0
+C0429,2021-11-05,21,Male,Morocco,9300.0,Bronze,212.52,2,176.8,4,user0428@example.com,2022-11-29,0
+C0430,2023-05-29,43,Male,Egypt,71300.0,Gold,187.43,5,174.7,4,user0429@demo.org,2024-07-01,0
+C0431,2022-11-02,26,Female,United States,9200.0,Bronze,79.27,4,155.1,5,user0430@mail.test,2023-01-06,0
+C0432,2023-08-21,44,Female,Algeria,31900.0,Silver,185.38,2,174.3,2,user0431@demo.org,2023-10-06,1
+C0433,2021-11-27,36,Male,Morocco,62600.0,Gold,137.53,6,176.8,5,user0432@example.com,2022-03-05,0
+C0434,2022-06-02,18,Female,United States,29200.0,Platinum,36.48,3,170.4,3,user0433@mail.test,2023-05-08,0
+C0435,2021-05-14,49,Female,France,22600.0,Platinum,45.72,6,167.4,2,user0434@example.com,2021-11-14,0
+C0436,2023-11-30,31,Female,Tunisia,23200.0,Bronze,99.14,0,158.9,3,user0435@mail.test,2024-11-09,1
+C0437,2022-07-15,32,Male,United States,60700.0,Gold,104.88,7,179.7,2,user0436@example.com,2023-03-31,0
+C0438,2022-08-29,25,Female,Egypt,15100.0,Platinum,220.36,3,170.7,4,user0437@demo.org,2023-04-07,0
+C0439,2022-03-29,30,Female,United States,62400.0,Gold,102.13,6,170.8,3,user0438@mail.test,2022-07-20,0
+C0440,2021-10-24,43,Female,Egypt,40700.0,Silver,84.15,3,150.7,4,user0439@example.com,2022-03-11,0
+C0441,2023-11-05,36,Female,Tunisia,23100.0,Bronze,66.01,1,165.3,5,user0440@mail.test,2024-01-03,0
+C0442,2022-06-20,42,Male,Egypt,31900.0,Silver,65.82,5,182.9,3,user0441@mail.test,2023-01-14,0
+C0443,2023-01-09,42,Female,France,26200.0,Bronze,64.71,1,155.8,3,user0442@demo.org,2023-05-01,0
+C0444,2021-02-10,54,Male,Morocco,66900.0,Gold,54.03,5,168.0,2,user0443@mail.test,2021-06-07,0
+C0445,2021-10-30,34,Female,Saudi Arabia,54000.0,Gold,173.67,4,153.9,3,user0444@mail.test,2021-11-15,0
+C0446,2023-05-31,20,Male,Algeria,15800.0,Silver,104.26,5,180.0,5,user0445@demo.org,2024-04-14,0
+C0447,2021-04-07,51,Male,United States,37000.0,Silver,119.52,6,177.8,4,user0446@mail.test,2022-04-17,0
+C0448,2021-04-22,34,Male,Saudi Arabia,26300.0,Bronze,28.94,6,177.8,3,user0447@demo.org,2021-11-07,0
+C0449,2023-06-06,51,Male,Algeria,79300.0,Gold,237.01,4,173.5,3,user0448@demo.org,2024-01-06,1
+C0450,2021-12-05,43,Female,Jordan,22700.0,Bronze,173.67,9,155.9,4,user0449@demo.org,2022-12-10,0
+C0451,2021-10-27,36,Male,Egypt,81300.0,Platinum,481.3,3,173.7,4,user0450@demo.org,2022-05-20,1
+C0452,2022-09-12,42,Male,United States,40800.0,Bronze,191.87,7,180.1,3,user0451@demo.org,2023-05-19,1
+C0453,2021-08-02,61,Male,Saudi Arabia,28200.0,Bronze,385.82,2,180.9,4,user0452@mail.test,2022-01-20,0
+C0454,2021-02-17,63,Male,United States,35500.0,Silver,77.85,6,168.0,3,user0453@mail.test,2021-09-11,0
+C0455,2021-01-05,39,Male,Egypt,28200.0,Bronze,352.4,4,180.3,3,user0454@example.com,2021-08-02,0
+C0456,2021-03-28,40,Male,Egypt,23000.0,Bronze,171.41,4,170.4,4,user0455@demo.org,2022-01-06,0
+C0457,2021-06-23,51,Male,Algeria,46200.0,Silver,186.19,4,178.3,2,user0456@demo.org,2022-02-20,0
+C0458,2023-02-02,28,Male,Algeria,21200.0,Bronze,103.72,3,173.7,4,user0457@demo.org,2023-08-23,0
+C0459,2021-11-23,42,Female,Jordan,15500.0,Bronze,83.58,5,166.3,4,user0458@demo.org,2021-12-24,0
+C0460,2021-03-20,38,Female,Tunisia,33800.0,Silver,81.72,5,154.6,2,user0459@mail.test,2022-03-16,0
+C0461,2021-01-16,42,Female,France,18400.0,Gold,332.74,1,166.3,4,user0460@example.com,2022-01-06,1
+C0462,2022-06-07,28,Female,France,26300.0,Bronze,105.5,5,165.5,2,user0461@demo.org,2022-08-20,0
+C0463,2023-07-09,19,Female,France,22600.0,Bronze,173.0,2,169.6,4,user0462@demo.org,2023-11-04,0
+C0464,2022-01-06,18,Female,Saudi Arabia,22800.0,Silver,200.16,4,167.3,3,user0463@demo.org,2023-01-30,1
+C0465,2021-03-11,25,Female,Saudi Arabia,88500.0,Platinum,304.27,2,169.8,5,user0464@mail.test,2021-07-18,0
+C0466,2021-09-07,32,Female,Egypt,39200.0,Silver,157.49,5,161.3,5,user0465@mail.test,2022-07-29,0
+C0467,2022-07-01,34,Male,United States,43400.0,Silver,389.41,2,171.9,3,user0466@example.com,2023-05-11,1
+C0468,2021-07-26,61,Male,Egypt,21400.0,Bronze,162.04,2,182.8,2,user0467@example.com,2022-07-05,1
+C0469,2023-12-08,51,Male,Egypt,33000.0,Silver,79.57,5,170.8,3,user0468@demo.org,2023-12-15,0
+C0470,2023-04-16,26,Female,United States,40000.0,Silver,105.03,5,153.4,2,user0469@example.com,2023-10-26,0
+C0471,2022-01-13,42,Female,Saudi Arabia,26100.0,Bronze,30.57,4,165.4,5,user0470@example.com,2022-08-27,0
+C0472,2023-11-08,33,Male,Morocco,58000.0,Gold,192.87,8,165.2,4,user0471@demo.org,2024-10-08,0
+C0473,2021-12-22,35,Female,Jordan,22800.0,Platinum,183.44,5,163.1,5,user0472@mail.test,2022-03-22,0
+C0474,2021-06-03,40,Male,Algeria,35800.0,Silver,215.05,2,165.1,3,user0473@example.com,2021-10-04,0
+C0475,2023-10-25,45,Female,Morocco,32600.0,Silver,184.79,2,150.0,3,user0474@mail.test,2024-01-05,1
+C0476,2023-11-17,34,Female,Morocco,41800.0,Silver,121.67,2,159.0,4,user0475@mail.test,2024-09-17,1
+C0477,2021-12-09,51,Male,Egypt,33200.0,Silver,130.9,1,175.1,5,user0476@example.com,2023-01-12,0
+C0478,2022-10-14,24,Female,Jordan,31500.0,Silver,129.51,3,166.7,4,user0477@mail.test,2022-12-10,0
+C0479,2021-07-09,38,Female,Jordan,36100.0,Silver,261.18,4,152.7,3,user0478@mail.test,2021-10-11,0
+C0480,2022-12-04,69,Male,Morocco,36000.0,Silver,21.26,3,181.5,5,user0479@demo.org,2023-04-06,0
+C0481,2023-01-26,41,Female,France,51100.0,Gold,103.59,3,165.1,3,user0480@example.com,2024-01-16,0
+C0482,2023-02-17,55,Male,Morocco,50800.0,Gold,63.34,8,170.7,3,user0481@demo.org,2023-08-14,0
+C0483,2022-09-15,39,Female,Egypt,38900.0,Silver,478.51,3,161.0,1,user0482@example.com,2023-01-06,0
+C0484,2023-02-11,45,Female,Tunisia,34900.0,Silver,293.6,0,165.4,4,user0483@demo.org,2023-06-20,1
+C0485,2022-08-31,37,Male,Morocco,57000.0,Gold,111.25,9,158.0,4,user0484@demo.org,2023-04-27,0
+C0486,2023-06-17,36,Female,Morocco,35500.0,Silver,39.68,7,160.7,4,user0485@mail.test,2023-11-19,0
+C0487,2021-07-16,29,Male,Saudi Arabia,32400.0,Silver,49.51,3,178.7,3,user0486@example.com,2021-09-11,0
+C0488,2022-06-14,43,Male,United States,43800.0,Silver,273.45,6,179.9,3,user0487@example.com,2023-05-08,0
+C0489,2022-04-01,28,Male,Algeria,79200.0,Gold,42.15,6,174.0,3,user0488@mail.test,2022-09-17,0
+C0490,2022-08-08,46,Female,Tunisia,23400.0,Bronze,122.72,3,167.4,4,user0489@demo.org,2022-11-19,0
+C0491,2021-06-05,51,Male,Morocco,62700.0,Gold,276.11,5,179.7,4,user0490@demo.org,2022-03-23,0
+C0492,2021-12-21,42,Male,Morocco,17700.0,Bronze,40.2,3,171.0,3,user0491@example.com,2022-10-15,0
+C0493,2023-11-11,35,Male,Jordan,43200.0,Silver,141.29,3,178.8,5,user0492@example.com,2024-01-12,0
+C0494,2021-04-26,43,Female,Egypt,84800.0,Platinum,132.67,5,162.0,4,user0493@mail.test,2021-05-26,0
+C0495,2022-11-27,34,Male,Algeria,48400.0,Silver,95.87,4,176.7,3,user0494@mail.test,2022-12-16,0
+C0496,2022-12-29,49,Female,United States,47200.0,Silver,82.58,3,160.2,4,user0495@demo.org,2023-10-31,0
+C0497,2022-06-04,18,Male,Morocco,26200.0,Bronze,226.27,5,181.1,2,user0496@demo.org,2023-02-09,0
+C0498,2021-02-06,34,Female,Jordan,39400.0,Silver,346.47,2,167.3,4,user0497@mail.test,2021-12-20,0
+C0499,2021-02-07,18,Male,Morocco,30100.0,Silver,105.04,5,190.7,2,user0498@mail.test,2021-10-15,0
+C0500,2021-10-29,20,Male,Saudi Arabia,24100.0,Bronze,158.52,2,190.7,3,user0499@mail.test,2022-04-08,0
+C0501,2021-04-23,54,Female,United States,39700.0,Silver,140.19,7,160.0,2,user0500@mail.test,2021-12-15,0
+C0502,2021-04-14,49,Male,Saudi Arabia,47700.0,Silver,26.56,5,183.9,3,user0501@demo.org,2022-01-28,0
+C0503,2021-06-25,29,Male,France,26400.0,Bronze,98.99,2,174.4,5,user0502@example.com,2021-12-02,0
+C0504,2021-07-28,20,Female,United States,23900.0,Bronze,17.8,3,152.2,3,user0503@demo.org,2022-07-29,1
+C0505,2023-07-08,18,Female,Tunisia,18300.0,Bronze,79.42,2,170.1,4,user0504@demo.org,2024-07-01,0
+C0506,2022-12-01,31,Male,Tunisia,45200.0,Silver,140.36,3,164.1,5,user0505@mail.test,2023-10-17,1
+C0507,2021-02-03,67,Female,Saudi Arabia,63200.0,Gold,262.04,2,155.0,4,user0506@mail.test,2022-03-06,1
+C0508,2022-11-20,43,Female,Morocco,46300.0,Silver,175.17,4,146.9,3,user0507@mail.test,2023-04-25,0
+C0509,2021-05-30,31,Male,France,58500.0,Gold,289.16,6,174.8,3,user0508@demo.org,2021-07-15,0
+C0510,2022-04-07,44,Female,Tunisia,43800.0,Silver,70.18,9,168.7,4,user0509@example.com,2022-10-18,0
+C0511,2021-02-11,19,Male,Egypt,40600.0,Silver,320.8,4,170.9,3,user0510@mail.test,2021-12-06,0
+C0512,2021-04-09,34,Female,Saudi Arabia,44500.0,Silver,359.4,5,156.8,3,user0511@mail.test,2022-02-14,0
+C0513,2021-05-26,39,Male,Saudi Arabia,38800.0,Silver,18.8,4,181.6,5,user0512@demo.org,2021-10-29,1
+C0514,2022-04-20,37,Female,Morocco,31400.0,Silver,29.11,5,148.6,5,user0513@example.com,2022-08-15,0
+C0515,2022-05-23,47,Male,United States,116500.0,Platinum,205.64,7,177.0,2,user0514@example.com,2022-11-17,0
+C0516,2022-01-22,42,Male,Egypt,33800.0,Silver,84.55,6,169.1,3,user0515@mail.test,2022-12-09,0
+C0517,2022-11-11,46,Female,Jordan,31600.0,Silver,93.82,3,168.9,3,user0516@mail.test,2022-12-06,0
+C0518,2023-02-28,30,Female,Jordan,45700.0,Silver,173.33,10,169.8,4,user0517@demo.org,2023-07-09,0
+C0519,2023-03-09,49,Male,Jordan,48900.0,Silver,278.95,7,172.7,5,user0518@example.com,2023-06-09,0
+C0520,2022-09-27,58,Male,Saudi Arabia,24700.0,Bronze,58.14,4,180.9,5,user0519@example.com,2023-08-15,0
+C0521,2022-08-21,26,Male,Egypt,60100.0,Gold,333.81,7,166.1,3,user0520@mail.test,2023-02-25,1
+C0522,2022-06-23,27,Female,France,35100.0,Silver,74.67,4,165.1,3,user0521@mail.test,2022-07-28,0
+C0523,2021-09-18,54,Male,Jordan,27500.0,Bronze,477.79,7,158.3,4,user0522@example.com,2022-01-01,0
+C0524,2022-06-18,36,Male,Saudi Arabia,67400.0,Gold,383.77,5,159.7,3,user0523@example.com,2022-07-06,1
+C0525,2021-01-12,55,Female,Algeria,60400.0,Gold,96.31,6,168.2,3,user0524@mail.test,2021-07-21,0
+C0526,2023-11-25,33,Female,Morocco,21800.0,Silver,36.44,3,160.9,3,user0525@example.com,2024-12-28,0
+C0527,2022-02-10,55,Female,Algeria,101400.0,Platinum,118.66,1,154.3,1,user0526@demo.org,2022-09-25,1
+C0528,2023-04-09,40,Male,Morocco,54800.0,Gold,81.17,5,169.2,4,user0527@example.com,2024-03-21,0
+C0529,2023-11-14,41,Female,Morocco,40900.0,Silver,207.34,2,164.2,3,user0528@demo.org,2024-09-06,0
+C0530,2022-06-29,57,Female,Saudi Arabia,94600.0,Platinum,27.15,7,161.5,5,user0529@example.com,2023-06-17,0
+C0531,2023-08-02,34,Male,Morocco,41700.0,Silver,31.8,4,171.4,4,user0530@mail.test,2023-12-05,0
+C0532,2022-06-09,27,Female,Morocco,36100.0,Silver,196.36,3,173.3,2,user0531@demo.org,2023-06-24,0
+C0533,2021-05-25,33,Male,Morocco,28600.0,Bronze,65.03,3,174.9,3,user0532@mail.test,2021-08-29,0
+C0534,2021-01-29,43,Male,Saudi Arabia,54200.0,Gold,104.59,8,171.0,2,user0533@demo.org,2021-07-23,0
+C0535,2021-05-29,19,Male,France,42200.0,Gold,240.58,4,171.3,2,user0534@example.com,2022-02-25,0
+C0536,2023-10-30,46,Male,Morocco,43000.0,Silver,275.96,5,177.1,4,user0535@demo.org,2024-02-22,0
+C0537,2022-06-05,32,Male,United States,26800.0,Bronze,281.49,6,168.2,3,user0536@example.com,2022-09-19,0
+C0538,2021-12-16,52,Male,Jordan,47300.0,Silver,235.15,8,178.2,5,user0537@mail.test,2022-02-06,0
+C0539,2022-05-04,18,Male,Morocco,32700.0,Silver,110.98,4,171.7,2,user0538@example.com,2022-05-06,0
+C0540,2021-10-08,29,Female,Morocco,20400.0,Bronze,94.38,2,161.6,3,user0539@demo.org,2022-04-26,0
+C0541,2023-08-12,18,Female,Algeria,17400.0,Bronze,83.92,4,155.0,3,user0540@example.com,2024-09-09,0
+C0542,2023-12-31,28,Male,Jordan,47600.0,Silver,50.59,5,173.8,5,user0541@demo.org,2024-03-28,0
+C0543,2021-04-03,41,Female,Saudi Arabia,12700.0,Bronze,50.73,4,171.9,4,user0542@mail.test,2021-09-26,0
+C0544,2023-02-26,36,Male,Jordan,43300.0,Silver,290.98,1,162.5,4,user0543@mail.test,2024-03-06,0
+C0545,2022-01-03,35,Male,Morocco,31600.0,Silver,72.31,5,171.7,5,user0544@mail.test,2022-11-08,0
+C0546,2021-02-21,36,Male,Egypt,71200.0,Gold,59.03,5,175.2,3,user0545@example.com,2021-02-23,0
+C0547,2023-10-07,40,Female,France,32700.0,Silver,284.5,4,158.4,5,user0546@example.com,2024-04-24,0
+C0548,2021-03-09,26,Female,Egypt,48800.0,Silver,169.35,5,164.8,3,user0547@demo.org,2021-05-06,0
+C0549,2021-08-14,46,Female,France,35700.0,Silver,386.78,3,163.2,3,user0548@demo.org,2021-11-21,0
+C0550,2021-01-28,46,Male,Saudi Arabia,44900.0,Silver,384.65,4,185.2,4,user0549@demo.org,2021-05-07,0
+C0551,2022-06-01,43,Male,France,58200.0,Gold,59.06,5,169.5,2,user0550@mail.test,2023-02-01,0
+C0552,2022-10-19,45,Male,Saudi Arabia,34400.0,Silver,121.44,2,173.5,4,user0551@example.com,2023-01-07,0
+C0553,2021-12-18,42,Male,Egypt,64900.0,Gold,69.45,8,177.3,4,user0552@mail.test,2022-03-29,1
+C0554,2021-03-20,62,Male,Morocco,30600.0,Silver,54.58,2,176.3,5,user0553@mail.test,2021-06-19,1
+C0555,2021-05-08,37,Male,Morocco,45500.0,Silver,101.64,4,186.0,4,user0554@mail.test,2021-09-28,0
+C0556,2023-10-20,34,Female,France,58800.0,Gold,238.42,4,156.0,4,user0555@mail.test,2024-07-08,0
+C0557,2023-06-02,29,Male,Morocco,50100.0,Gold,226.28,3,184.3,4,user0556@demo.org,2023-11-09,0
+C0558,2023-10-23,26,Female,Morocco,85900.0,Platinum,256.68,12,166.4,3,user0557@mail.test,2024-03-02,0
+C0559,2022-08-05,23,Male,Morocco,25000.0,Bronze,104.3,7,169.8,3,user0558@example.com,2023-02-28,0
+C0560,2022-08-21,27,Male,Morocco,19700.0,Bronze,187.17,2,173.4,4,user0559@demo.org,2023-04-24,1
+C0561,2023-05-11,37,Female,Jordan,25500.0,Bronze,42.68,8,170.6,4,user0560@mail.test,2023-05-18,0
+C0562,2022-11-07,42,Male,Egypt,55800.0,Gold,179.37,2,178.4,3,user0561@mail.test,2023-10-29,1
+C0563,2022-04-23,39,Female,Tunisia,50600.0,Gold,149.06,1,167.4,4,user0562@mail.test,2023-04-24,1
+C0564,2021-11-16,29,Male,Morocco,39000.0,Silver,110.7,2,170.3,5,user0563@demo.org,2022-07-15,0
+C0565,2022-06-16,49,Female,United States,26300.0,Platinum,149.48,3,152.4,3,user0564@demo.org,2023-02-01,0
+C0566,2021-03-12,47,Female,Saudi Arabia,60800.0,Gold,68.91,1,170.6,3,user0565@demo.org,2021-12-15,0
+C0567,2021-07-30,36,Male,Egypt,22800.0,Bronze,174.25,3,180.4,2,user0566@mail.test,2022-01-22,0
+C0568,2023-03-19,30,Female,Algeria,63300.0,Gold,158.53,5,162.6,4,user0567@example.com,2023-08-12,0
+C0569,2023-08-09,45,Male,Tunisia,153300.0,Platinum,62.45,3,183.1,4,user0568@mail.test,2023-12-28,0
+C0570,2021-04-22,40,Male,Algeria,48100.0,Silver,141.33,2,172.3,4,user0569@demo.org,2021-06-25,0
+C0571,2021-04-17,21,Female,Morocco,45100.0,Silver,92.44,4,155.1,4,user0570@demo.org,2022-03-19,0
+C0572,2021-04-04,37,Female,Egypt,31900.0,Silver,272.35,4,169.1,5,user0571@demo.org,2021-08-10,1
+C0573,2023-05-17,41,Female,United States,18200.0,Bronze,42.97,3,178.4,4,user0572@demo.org,2023-09-08,0
+C0574,2021-12-07,27,Female,Egypt,27900.0,Bronze,48.04,4,164.9,5,user0573@mail.test,2022-12-27,0
+C0575,2021-12-24,40,Female,France,24900.0,Bronze,161.53,1,158.2,5,user0574@example.com,2022-07-15,0
+C0576,2021-01-14,21,Male,United States,18100.0,Bronze,101.58,7,182.1,5,user0575@mail.test,2021-09-20,0
+C0577,2023-12-01,54,Female,United States,98300.0,Platinum,164.36,8,151.9,3,user0576@example.com,2024-03-08,0
+C0578,2022-04-21,53,Male,Jordan,50800.0,Gold,567.21,6,180.5,2,user0577@demo.org,2022-08-10,0
+C0579,2023-05-24,35,Female,France,46500.0,Silver,225.22,4,155.8,4,user0578@demo.org,2024-03-10,0
+C0580,2023-02-14,42,Male,Morocco,36000.0,Silver,101.95,2,169.6,4,user0579@mail.test,2023-08-13,0
+C0581,2021-06-05,18,Male,Morocco,31200.0,Bronze,28.32,8,168.6,5,user0580@mail.test,2021-08-03,0
+C0582,2023-05-28,24,Female,United States,55000.0,Gold,111.09,5,170.9,5,user0581@example.com,2024-04-26,0
+C0583,2022-08-26,34,Male,Saudi Arabia,38300.0,Silver,45.63,2,172.9,5,user0582@example.com,2023-02-03,0
+C0584,2022-10-24,25,Female,Egypt,45700.0,Silver,66.01,5,159.6,4,user0583@example.com,2023-07-18,0
+C0585,2021-08-08,47,Female,Saudi Arabia,39400.0,Silver,65.02,4,162.4,4,user0584@example.com,2021-12-23,0
+C0586,2023-07-17,62,Male,France,41000.0,Bronze,275.72,3,182.2,2,user0585@example.com,2024-02-26,0
+C0587,2023-10-18,24,Male,Jordan,18900.0,Bronze,31.83,7,178.0,4,user0586@demo.org,2024-08-23,1
+C0588,2022-03-22,28,Female,United States,15200.0,Bronze,210.21,2,164.5,3,user0587@demo.org,2023-03-11,0
+C0589,2021-04-12,41,Female,Egypt,36500.0,Silver,182.29,2,163.1,4,user0588@mail.test,2021-07-04,1
+C0590,2023-07-19,57,Female,Egypt,47400.0,Silver,194.79,7,174.8,4,user0589@example.com,2024-04-13,1
+C0591,2023-08-30,23,Female,Saudi Arabia,19800.0,Bronze,52.37,1,164.6,4,user0590@demo.org,2024-08-29,1
+C0592,2022-07-09,41,Female,Egypt,40500.0,Silver,233.55,5,168.9,4,user0591@mail.test,2023-03-23,0
+C0593,2022-09-27,60,Female,United States,48400.0,Silver,58.31,0,155.6,5,user0592@mail.test,2022-11-24,0
+C0594,2021-09-02,18,Male,United States,12800.0,Bronze,283.51,1,175.3,1,user0593@mail.test,2021-11-17,0
+C0595,2021-03-15,23,Female,Morocco,23400.0,Silver,245.15,4,157.7,4,user0594@mail.test,2021-06-04,0
+C0596,2023-10-31,33,Male,Morocco,46300.0,Silver,410.0,4,187.1,5,user0595@demo.org,2023-12-13,0
+C0597,2022-06-13,32,Male,Morocco,45500.0,Silver,144.58,4,183.4,5,user0596@demo.org,2023-04-10,0
+C0598,2021-10-29,48,Male,Algeria,25800.0,Bronze,108.14,8,175.6,4,user0597@mail.test,2022-11-19,0
+C0599,2023-01-30,41,Female,United States,44100.0,Silver,101.06,6,176.4,5,user0598@demo.org,2023-08-25,0
+C0600,2021-01-29,18,Male,Morocco,53400.0,Gold,568.98,6,170.1,4,user0599@demo.org,2021-09-25,0

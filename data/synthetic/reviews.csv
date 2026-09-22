@@ -1,0 +1,421 @@
+review_id,product,text,stars,sentiment,language
+RV0001,phone case,"Bought this phone case: highly recommend, great quality.",5,positive,en
+RV0002,desk lamp,"The desk lamp: late delivery, hard to use.",1,negative,en
+RV0003,headphones,"THE HEADPHONES: FRIENDLY SUPPORT, ARRIVED EARLY.!!!",4,positive,en
+RV0004,blender,"Bought this blender: excellent value, easy to use.",5,positive,en
+RV0005,desk lamp,"The desk lamp: does the job, as described.",3,neutral,en
+RV0006,phone case,"THIS PHONE CASE: VERY HAPPY, FRIENDLY SUPPORT.!!!",4,positive,en
+RV0007,keyboard,"My new keyboard: as described, does the job.",3,neutral,en
+RV0008,desk lamp,"THE DESK LAMP: DOES THE JOB, AVERAGE PRODUCT.!!!",3,neutral,en
+RV0009,water bottle,"MY NEW WATER BOTTLE: AS DESCRIBED, OKAY FOR THE PRICE.!!!",3,neutral,en
+RV0010,desk lamp,"  THIS DESK LAMP: EXCELLENT VALUE, FAST DELIVERY.!!!   <br> ",5,positive,en
+RV0011,blender,"Bought this blender: arrived early, highly recommend.",4,positive,en
+RV0012,phone case,كما هو موصوف مقبول مقابل السعر!,3,neutral,ar
+RV0013,blender,"Bought this blender: highly recommend, friendly support.",5,positive,en
+RV0014,kettle,كما هو موصوف منتج عادي!,3,neutral,ar
+RV0015,keyboard,"My new keyboard: easy to use, arrived early.",4,positive,en
+RV0016,keyboard,"This keyboard: does the job, okay for the price.",3,neutral,en
+RV0017,backpack,"  My new backpack: very happy, works perfectly.   <br> ",4,positive,en
+RV0018,desk lamp,"My new desk lamp: excellent value, very happy.",4,positive,en
+RV0019,phone case,"MY NEW PHONE CASE: HIGHLY RECOMMEND, EXCELLENT VALUE.!!!",4,positive,en
+RV0020,headphones,"MY NEW HEADPHONES: EASY TO USE, HIGHLY RECOMMEND.!!!",4,positive,en
+RV0021,water bottle,"The water bottle: cheap material, poor quality.",1,negative,en
+RV0022,water bottle,"My new water bottle: rude support, very disappointed.",2,negative,en
+RV0023,phone case,"My new phone case: arrived early, works perfectly.",4,positive,en
+RV0024,water bottle,"My new water bottle: great quality, excellent value.",5,positive,en
+RV0025,keyboard,"Bought this keyboard: great quality, highly recommend.",4,positive,en
+RV0026,desk lamp,"Bought this desk lamp: cheap material, hard to use.",2,negative,en
+RV0027,water bottle,"  THE WATER BOTTLE: NOTHING SPECIAL, OKAY FOR THE PRICE.!!!   <br> ",3,neutral,en
+RV0028,desk lamp,كما هو موصوف مقبول مقابل السعر!,3,neutral,ar
+RV0029,headphones,"This headphones: great quality, friendly support.",4,positive,en
+RV0030,backpack,"This backpack: very happy, highly recommend.",4,positive,en
+RV0031,phone case,التوصيل سريع جداً سعر مناسب وأداء ممتاز!,4,positive,ar
+RV0032,water bottle,"Bought this water bottle: does the job, nothing special.",3,neutral,en
+RV0033,blender,"The blender: nothing special, as described.",3,neutral,en
+RV0034,phone case,"Bought this phone case: excellent value, fast delivery.",5,positive,en
+RV0035,keyboard,التوصيل متأخر كثيراً لا أنصح به!,1,negative,ar
+RV0036,blender,"THIS BLENDER: ARRIVED EARLY, VERY HAPPY.!!!",5,positive,en
+RV0037,desk lamp,"Bought this desk lamp: arrived early, highly recommend.",5,positive,en
+RV0038,water bottle,"This water bottle: fast delivery, excellent value.",4,positive,en
+RV0039,blender,"The blender: fast delivery, excellent value.",5,positive,en
+RV0040,phone case,مقبول مقابل السعر كما هو موصوف!,3,neutral,ar
+RV0041,headphones,التوصيل سريع جداً سعر مناسب وأداء ممتاز!,5,positive,ar
+RV0042,blender,"The blender: very disappointed, poor quality.",1,negative,en
+RV0043,water bottle,"Bought this water bottle: okay for the price, does the job.",3,neutral,en
+RV0044,headphones,"My new headphones: does the job, okay for the price.",3,neutral,en
+RV0045,backpack,"My new backpack: poor quality, very disappointed.",2,negative,en
+RV0046,blender,"This blender: highly recommend, great quality.",5,positive,en
+RV0047,desk lamp,"My new desk lamp: highly recommend, beautiful design.",5,positive,en
+RV0048,desk lamp,"This desk lamp: arrived damaged, cheap material.",1,negative,en
+RV0049,blender,"The blender: arrived early, beautiful design.",5,positive,en
+RV0050,water bottle,"This water bottle: highly recommend, fast delivery.",4,positive,en
+RV0051,water bottle,"This water bottle: poor quality, hard to use.",1,negative,en
+RV0052,water bottle,"The water bottle: friendly support, highly recommend.",5,positive,en
+RV0053,phone case,"BOUGHT THIS PHONE CASE: VERY HAPPY, EASY TO USE.!!!",5,positive,en
+RV0054,phone case,"My new phone case: great quality, easy to use.",5,positive,en
+RV0055,phone case,"The phone case: poor quality, waste of money.",1,negative,en
+RV0056,kettle,"This kettle: rude support, cheap material.",2,negative,en
+RV0057,water bottle,"The water bottle: nothing special, does the job.",3,neutral,en
+RV0058,keyboard,"  THE KEYBOARD: ARRIVED EARLY, GREAT QUALITY.!!!   <br> ",5,positive,en
+RV0059,desk lamp,مقبول مقابل السعر منتج عادي!,3,neutral,ar
+RV0060,keyboard,"This keyboard: fast delivery, beautiful design.",4,positive,en
+RV0061,keyboard,"My new keyboard: highly recommend, beautiful design.",5,positive,en
+RV0062,headphones,"Bought this headphones: fast delivery, friendly support.",4,positive,en
+RV0063,keyboard,"  My new keyboard: works perfectly, fast delivery.   <br> ",5,positive,en
+RV0064,water bottle,"My new water bottle: fast delivery, easy to use.",5,positive,en
+RV0065,phone case,"Bought this phone case: rude support, cheap material.",1,negative,en
+RV0066,phone case,"THIS PHONE CASE: CHEAP MATERIAL, WASTE OF MONEY.!!!",2,negative,en
+RV0067,headphones,"  THIS HEADPHONES: WASTE OF MONEY, HARD TO USE.!!!   <br> ",2,negative,en
+RV0068,keyboard,كما هو موصوف منتج عادي!,3,neutral,ar
+RV0069,phone case,"This phone case: as described, average product.",3,neutral,en
+RV0070,headphones,"THIS HEADPHONES: BEAUTIFUL DESIGN, ARRIVED EARLY.!!!",4,positive,en
+RV0071,phone case,"My new phone case: highly recommend, easy to use.",5,positive,en
+RV0072,water bottle,"  My new water bottle: very happy, easy to use.   <br> ",4,positive,en
+RV0073,blender,"  My new blender: friendly support, beautiful design.   <br> ",5,positive,en
+RV0074,keyboard,التوصيل سريع جداً سعر مناسب وأداء ممتاز!,5,positive,ar
+RV0075,blender,"Bought this blender: does the job, nothing special.",3,neutral,en
+RV0076,keyboard,"This keyboard: stopped working, very disappointed.",1,negative,en
+RV0077,water bottle,"THIS WATER BOTTLE: WORKS PERFECTLY, EASY TO USE.!!!",5,positive,en
+RV0078,keyboard,"The keyboard: would not recommend, late delivery.",1,negative,en
+RV0079,backpack,"My new backpack: waste of money, stopped working.",1,negative,en
+RV0080,kettle,توقف عن العمل بسرعة التوصيل متأخر كثيراً!,1,negative,ar
+RV0081,water bottle,"Bought this water bottle: poor quality, very disappointed.",1,negative,en
+RV0082,phone case,جودة سيئة للأسف التوصيل متأخر كثيراً!,2,negative,ar
+RV0083,headphones,"  My new headphones: beautiful design, easy to use.   <br> ",4,positive,en
+RV0084,backpack,"This backpack: cheap material, waste of money.",1,negative,en
+RV0085,desk lamp,"My new desk lamp: very disappointed, waste of money.",1,negative,en
+RV0086,water bottle,"My new water bottle: rude support, hard to use.",1,negative,en
+RV0087,backpack,"This backpack: stopped working, cheap material.",1,negative,en
+RV0088,desk lamp,"The desk lamp: nothing special, okay for the price.",3,neutral,en
+RV0089,water bottle,"My new water bottle: very happy, works perfectly.",5,positive,en
+RV0090,water bottle,"The water bottle: friendly support, works perfectly.",5,positive,en
+RV0091,desk lamp,"Bought this desk lamp: great quality, beautiful design.",4,positive,en
+RV0092,kettle,"The kettle: very disappointed, stopped working.",1,negative,en
+RV0093,headphones,"The headphones: poor quality, cheap material.",2,negative,en
+RV0094,phone case,"MY NEW PHONE CASE: STOPPED WORKING, LATE DELIVERY.!!!",2,negative,en
+RV0095,phone case,"Bought this phone case: excellent value, very happy.",5,positive,en
+RV0096,desk lamp,"My new desk lamp: easy to use, friendly support.",4,positive,en
+RV0097,blender,جودة سيئة للأسف لا أنصح به!,2,negative,ar
+RV0098,backpack,"Bought this backpack: rude support, late delivery.",2,negative,en
+RV0099,water bottle,"Bought this water bottle: highly recommend, friendly support.",4,positive,en
+RV0100,keyboard,"Bought this keyboard: cheap material, stopped working.",1,negative,en
+RV0101,backpack,أنصح به بشدة منتج رائع وجودة ممتازة!,4,positive,ar
+RV0102,kettle,منتج رائع وجودة ممتازة التوصيل سريع جداً!,5,positive,ar
+RV0103,desk lamp,"This desk lamp: highly recommend, friendly support.",5,positive,en
+RV0104,keyboard,"Bought this keyboard: poor quality, would not recommend.",2,negative,en
+RV0105,desk lamp,"  Bought this desk lamp: waste of money, cheap material.   <br> ",1,negative,en
+RV0106,keyboard,"MY NEW KEYBOARD: GREAT QUALITY, WORKS PERFECTLY.!!!",4,positive,en
+RV0107,blender,"This blender: arrived early, great quality.",4,positive,en
+RV0108,blender,"This blender: beautiful design, very happy.",5,positive,en
+RV0109,water bottle,"THIS WATER BOTTLE: FAST DELIVERY, FRIENDLY SUPPORT.!!!",4,positive,en
+RV0110,keyboard,"Bought this keyboard: average product, okay for the price.",3,neutral,en
+RV0111,keyboard,توقف عن العمل بسرعة التوصيل متأخر كثيراً!,2,negative,ar
+RV0112,phone case,"My new phone case: arrived damaged, very disappointed.",2,negative,en
+RV0113,water bottle,"The water bottle: cheap material, stopped working.",2,negative,en
+RV0114,keyboard,"The keyboard: great quality, highly recommend.",5,positive,en
+RV0115,phone case,"The phone case: average product, as described.",3,neutral,en
+RV0116,kettle,"This kettle: very happy, excellent value.",4,positive,en
+RV0117,keyboard,"Bought this keyboard: great quality, beautiful design.",4,positive,en
+RV0118,phone case,"Bought this phone case: hard to use, cheap material.",2,negative,en
+RV0119,phone case,"Bought this phone case: very disappointed, would not recommend.",1,negative,en
+RV0120,backpack,"My new backpack: works perfectly, beautiful design.",5,positive,en
+RV0121,headphones,أنصح به بشدة منتج رائع وجودة ممتازة!,4,positive,ar
+RV0122,keyboard,"The keyboard: stopped working, hard to use.",1,negative,en
+RV0123,desk lamp,"MY NEW DESK LAMP: HIGHLY RECOMMEND, EXCELLENT VALUE.!!!",4,positive,en
+RV0124,phone case,"This phone case: fast delivery, highly recommend.",4,positive,en
+RV0125,phone case,"My new phone case: waste of money, arrived damaged.",1,negative,en
+RV0126,backpack,"This backpack: great quality, fast delivery.",4,positive,en
+RV0127,kettle,"This kettle: rude support, would not recommend.",1,negative,en
+RV0128,desk lamp,"THE DESK LAMP: HARD TO USE, CHEAP MATERIAL.!!!",2,negative,en
+RV0129,kettle,أنصح به بشدة منتج رائع وجودة ممتازة!,5,positive,ar
+RV0130,headphones,"This headphones: would not recommend, waste of money.",1,negative,en
+RV0131,blender,"Bought this blender: arrived damaged, rude support.",1,negative,en
+RV0132,phone case,"This phone case: very disappointed, would not recommend.",1,negative,en
+RV0133,blender,جودة سيئة للأسف لا أنصح به!,1,negative,ar
+RV0134,headphones,"The headphones: stopped working, rude support.",1,negative,en
+RV0135,backpack,"  THIS BACKPACK: GREAT QUALITY, WORKS PERFECTLY.!!!   <br> ",4,positive,en
+RV0136,headphones,"This headphones: would not recommend, very disappointed.",2,negative,en
+RV0137,headphones,"The headphones: waste of money, very disappointed.",2,negative,en
+RV0138,phone case,"This phone case: stopped working, very disappointed.",1,negative,en
+RV0139,keyboard,جودة سيئة للأسف التوصيل متأخر كثيراً!,1,negative,ar
+RV0140,kettle,"My new kettle: arrived damaged, rude support.",2,negative,en
+RV0141,headphones,"The headphones: arrived early, friendly support.",5,positive,en
+RV0142,keyboard,"The keyboard: arrived early, easy to use.",5,positive,en
+RV0143,kettle,"This kettle: nothing special, okay for the price.",3,neutral,en
+RV0144,keyboard,"The keyboard: friendly support, works perfectly.",4,positive,en
+RV0145,blender,"MY NEW BLENDER: VERY DISAPPOINTED, RUDE SUPPORT.!!!",2,negative,en
+RV0146,keyboard,سعر مناسب وأداء ممتاز التوصيل سريع جداً!,5,positive,ar
+RV0147,backpack,"BOUGHT THIS BACKPACK: DOES THE JOB, NOTHING SPECIAL.!!!",3,neutral,en
+RV0148,desk lamp,"The desk lamp: rude support, late delivery.",1,negative,en
+RV0149,headphones,"Bought this headphones: does the job, average product.",3,neutral,en
+RV0150,keyboard,توقف عن العمل بسرعة لا أنصح به!,2,negative,ar
+RV0151,keyboard,"THIS KEYBOARD: LATE DELIVERY, HARD TO USE.!!!",2,negative,en
+RV0152,phone case,"The phone case: works perfectly, fast delivery.",4,positive,en
+RV0153,phone case,"Bought this phone case: stopped working, poor quality.",2,negative,en
+RV0154,headphones,"My new headphones: poor quality, rude support.",2,negative,en
+RV0155,water bottle,"My new water bottle: friendly support, beautiful design.",4,positive,en
+RV0156,headphones,"The headphones: arrived early, fast delivery.",4,positive,en
+RV0157,kettle,منتج عادي كما هو موصوف!,3,neutral,ar
+RV0158,phone case,"This phone case: very happy, arrived early.",4,positive,en
+RV0159,backpack,"  Bought this backpack: poor quality, rude support.   <br> ",2,negative,en
+RV0160,keyboard,"BOUGHT THIS KEYBOARD: VERY HAPPY, WORKS PERFECTLY.!!!",5,positive,en
+RV0161,desk lamp,"This desk lamp: would not recommend, rude support.",2,negative,en
+RV0162,backpack,"This backpack: works perfectly, great quality.",4,positive,en
+RV0163,headphones,أنصح به بشدة منتج رائع وجودة ممتازة!,5,positive,ar
+RV0164,keyboard,"This keyboard: fast delivery, great quality.",5,positive,en
+RV0165,keyboard,"THE KEYBOARD: VERY DISAPPOINTED, WOULD NOT RECOMMEND.!!!",1,negative,en
+RV0166,kettle,"MY NEW KETTLE: GREAT QUALITY, EXCELLENT VALUE.!!!",4,positive,en
+RV0167,headphones,"  Bought this headphones: fast delivery, works perfectly.   <br> ",4,positive,en
+RV0168,kettle,"The kettle: highly recommend, fast delivery.",4,positive,en
+RV0169,headphones,"Bought this headphones: works perfectly, friendly support.",5,positive,en
+RV0170,water bottle,"Bought this water bottle: nothing special, does the job.",3,neutral,en
+RV0171,backpack,"THIS BACKPACK: LATE DELIVERY, CHEAP MATERIAL.!!!",2,negative,en
+RV0172,keyboard,"BOUGHT THIS KEYBOARD: HIGHLY RECOMMEND, GREAT QUALITY.!!!",4,positive,en
+RV0173,desk lamp,"Bought this desk lamp: arrived early, easy to use.",5,positive,en
+RV0174,blender,"Bought this blender: okay for the price, nothing special.",3,neutral,en
+RV0175,kettle,"My new kettle: hard to use, poor quality.",1,negative,en
+RV0176,kettle,"The kettle: fast delivery, friendly support.",4,positive,en
+RV0177,blender,"My new blender: stopped working, waste of money.",2,negative,en
+RV0178,desk lamp,"  The desk lamp: great quality, arrived early.   <br> ",5,positive,en
+RV0179,headphones,"The headphones: as described, okay for the price.",3,neutral,en
+RV0180,blender,"THE BLENDER: AS DESCRIBED, DOES THE JOB.!!!",3,neutral,en
+RV0181,blender,"  THE BLENDER: EXCELLENT VALUE, BEAUTIFUL DESIGN.!!!   <br> ",4,positive,en
+RV0182,backpack,"This backpack: stopped working, poor quality.",1,negative,en
+RV0183,blender,"The blender: okay for the price, does the job.",3,neutral,en
+RV0184,backpack,"My new backpack: okay for the price, as described.",3,neutral,en
+RV0185,keyboard,"My new keyboard: as described, does the job.",3,neutral,en
+RV0186,backpack,"THIS BACKPACK: EXCELLENT VALUE, EASY TO USE.!!!",4,positive,en
+RV0187,desk lamp,"Bought this desk lamp: average product, okay for the price.",3,neutral,en
+RV0188,water bottle,"The water bottle: very happy, excellent value.",4,positive,en
+RV0189,blender,"Bought this blender: rude support, arrived damaged.",2,negative,en
+RV0190,water bottle,"THE WATER BOTTLE: EASY TO USE, ARRIVED EARLY.!!!",4,positive,en
+RV0191,blender,"BOUGHT THIS BLENDER: WOULD NOT RECOMMEND, VERY DISAPPOINTED.!!!",1,negative,en
+RV0192,desk lamp,"The desk lamp: hard to use, waste of money.",2,negative,en
+RV0193,keyboard,"My new keyboard: friendly support, works perfectly.",4,positive,en
+RV0194,water bottle,مقبول مقابل السعر كما هو موصوف!,3,neutral,ar
+RV0195,kettle,"Bought this kettle: late delivery, would not recommend.",2,negative,en
+RV0196,phone case,"  The phone case: as described, average product.   <br> ",3,neutral,en
+RV0197,desk lamp,"The desk lamp: would not recommend, late delivery.",2,negative,en
+RV0198,kettle,"The kettle: arrived early, excellent value.",4,positive,en
+RV0199,phone case,"BOUGHT THIS PHONE CASE: FRIENDLY SUPPORT, ARRIVED EARLY.!!!",5,positive,en
+RV0200,phone case,"This phone case: easy to use, excellent value.",4,positive,en
+RV0201,backpack,"The backpack: highly recommend, friendly support.",4,positive,en
+RV0202,desk lamp,"The desk lamp: would not recommend, cheap material.",2,negative,en
+RV0203,phone case,لا أنصح به التوصيل متأخر كثيراً!,1,negative,ar
+RV0204,blender,"The blender: arrived damaged, late delivery.",1,negative,en
+RV0205,water bottle,"The water bottle: very happy, beautiful design.",5,positive,en
+RV0206,backpack,منتج رائع وجودة ممتازة سعر مناسب وأداء ممتاز!,4,positive,ar
+RV0207,desk lamp,جودة سيئة للأسف توقف عن العمل بسرعة!,1,negative,ar
+RV0208,headphones,التوصيل سريع جداً منتج رائع وجودة ممتازة!,4,positive,ar
+RV0209,kettle,"  THE KETTLE: WOULD NOT RECOMMEND, CHEAP MATERIAL.!!!   <br> ",2,negative,en
+RV0210,blender,"My new blender: arrived damaged, would not recommend.",2,negative,en
+RV0211,keyboard,"The keyboard: as described, average product.",3,neutral,en
+RV0212,keyboard,"  This keyboard: great quality, excellent value.   <br> ",4,positive,en
+RV0213,phone case,"  THE PHONE CASE: FAST DELIVERY, EASY TO USE.!!!   <br> ",5,positive,en
+RV0214,phone case,"Bought this phone case: would not recommend, poor quality.",2,negative,en
+RV0215,keyboard,"Bought this keyboard: great quality, arrived early.",5,positive,en
+RV0216,phone case,"Bought this phone case: poor quality, stopped working.",2,negative,en
+RV0217,keyboard,"My new keyboard: stopped working, waste of money.",2,negative,en
+RV0218,kettle,"BOUGHT THIS KETTLE: ARRIVED DAMAGED, WASTE OF MONEY.!!!",2,negative,en
+RV0219,kettle,"The kettle: works perfectly, highly recommend.",5,positive,en
+RV0220,headphones,"The headphones: as described, okay for the price.",3,neutral,en
+RV0221,keyboard,سعر مناسب وأداء ممتاز أنصح به بشدة!,4,positive,ar
+RV0222,keyboard,التوصيل متأخر كثيراً جودة سيئة للأسف!,2,negative,ar
+RV0223,water bottle,"The water bottle: would not recommend, waste of money.",1,negative,en
+RV0224,desk lamp,سعر مناسب وأداء ممتاز أنصح به بشدة!,4,positive,ar
+RV0225,water bottle,"My new water bottle: poor quality, would not recommend.",1,negative,en
+RV0226,kettle,"  Bought this kettle: friendly support, highly recommend.   <br> ",5,positive,en
+RV0227,desk lamp,"Bought this desk lamp: very happy, works perfectly.",4,positive,en
+RV0228,water bottle,"The water bottle: highly recommend, arrived early.",5,positive,en
+RV0229,phone case,"Bought this phone case: works perfectly, very happy.",5,positive,en
+RV0230,blender,"This blender: highly recommend, beautiful design.",4,positive,en
+RV0231,blender,"This blender: stopped working, would not recommend.",1,negative,en
+RV0232,kettle,التوصيل متأخر كثيراً لا أنصح به!,1,negative,ar
+RV0233,water bottle,"The water bottle: does the job, as described.",3,neutral,en
+RV0234,water bottle,"The water bottle: very happy, friendly support.",4,positive,en
+RV0235,kettle,"The kettle: stopped working, very disappointed.",2,negative,en
+RV0236,keyboard,"This keyboard: works perfectly, easy to use.",4,positive,en
+RV0237,kettle,"This kettle: waste of money, late delivery.",2,negative,en
+RV0238,blender,"The blender: nothing special, okay for the price.",3,neutral,en
+RV0239,blender,لا أنصح به جودة سيئة للأسف!,2,negative,ar
+RV0240,headphones,"My new headphones: easy to use, fast delivery.",5,positive,en
+RV0241,phone case,"The phone case: hard to use, waste of money.",2,negative,en
+RV0242,kettle,"Bought this kettle: cheap material, late delivery.",2,negative,en
+RV0243,blender,"My new blender: great quality, easy to use.",5,positive,en
+RV0244,keyboard,"My new keyboard: arrived damaged, would not recommend.",1,negative,en
+RV0245,phone case,"Bought this phone case: works perfectly, excellent value.",5,positive,en
+RV0246,keyboard,"This keyboard: fast delivery, beautiful design.",4,positive,en
+RV0247,water bottle,"This water bottle: great quality, excellent value.",4,positive,en
+RV0248,kettle,"Bought this kettle: friendly support, fast delivery.",4,positive,en
+RV0249,phone case,"My new phone case: excellent value, very happy.",5,positive,en
+RV0250,headphones,"Bought this headphones: would not recommend, cheap material.",2,negative,en
+RV0251,keyboard,"This keyboard: arrived damaged, very disappointed.",2,negative,en
+RV0252,backpack,"BOUGHT THIS BACKPACK: WORKS PERFECTLY, GREAT QUALITY.!!!",4,positive,en
+RV0253,headphones,كما هو موصوف مقبول مقابل السعر!,3,neutral,ar
+RV0254,desk lamp,التوصيل متأخر كثيراً توقف عن العمل بسرعة!,1,negative,ar
+RV0255,blender,"This blender: okay for the price, does the job.",3,neutral,en
+RV0256,keyboard,"Bought this keyboard: excellent value, works perfectly.",4,positive,en
+RV0257,phone case,منتج رائع وجودة ممتازة التوصيل سريع جداً!,5,positive,ar
+RV0258,desk lamp,"  This desk lamp: does the job, average product.   <br> ",3,neutral,en
+RV0259,water bottle,"My new water bottle: works perfectly, excellent value.",4,positive,en
+RV0260,water bottle,"THE WATER BOTTLE: HIGHLY RECOMMEND, EXCELLENT VALUE.!!!",5,positive,en
+RV0261,kettle,لا أنصح به جودة سيئة للأسف!,2,negative,ar
+RV0262,headphones,"Bought this headphones: friendly support, very happy.",5,positive,en
+RV0263,keyboard,"This keyboard: works perfectly, great quality.",4,positive,en
+RV0264,headphones,"Bought this headphones: hard to use, late delivery.",2,negative,en
+RV0265,phone case,"My new phone case: late delivery, would not recommend.",1,negative,en
+RV0266,kettle,"This kettle: nothing special, does the job.",3,neutral,en
+RV0267,desk lamp,"This desk lamp: late delivery, very disappointed.",2,negative,en
+RV0268,headphones,"My new headphones: excellent value, easy to use.",4,positive,en
+RV0269,desk lamp,"My new desk lamp: as described, average product.",3,neutral,en
+RV0270,backpack,"My new backpack: easy to use, fast delivery.",5,positive,en
+RV0271,phone case,"Bought this phone case: average product, does the job.",3,neutral,en
+RV0272,keyboard,"  Bought this keyboard: arrived early, excellent value.   <br> ",5,positive,en
+RV0273,keyboard,"THE KEYBOARD: EXCELLENT VALUE, FAST DELIVERY.!!!",4,positive,en
+RV0274,kettle,جودة سيئة للأسف لا أنصح به!,2,negative,ar
+RV0275,phone case,كما هو موصوف منتج عادي!,3,neutral,ar
+RV0276,headphones,"My new headphones: waste of money, poor quality.",1,negative,en
+RV0277,desk lamp,"This desk lamp: very disappointed, waste of money.",1,negative,en
+RV0278,desk lamp,"The desk lamp: average product, does the job.",3,neutral,en
+RV0279,kettle,"The kettle: beautiful design, fast delivery.",5,positive,en
+RV0280,desk lamp,"The desk lamp: hard to use, very disappointed.",1,negative,en
+RV0281,desk lamp,"THIS DESK LAMP: WORKS PERFECTLY, FRIENDLY SUPPORT.!!!",5,positive,en
+RV0282,phone case,"Bought this phone case: nothing special, okay for the price.",3,neutral,en
+RV0283,water bottle,"Bought this water bottle: very happy, fast delivery.",5,positive,en
+RV0284,kettle,"  My new kettle: arrived early, very happy.   <br> ",5,positive,en
+RV0285,keyboard,"BOUGHT THIS KEYBOARD: EXCELLENT VALUE, BEAUTIFUL DESIGN.!!!",4,positive,en
+RV0286,backpack,"Bought this backpack: works perfectly, easy to use.",4,positive,en
+RV0287,backpack,"Bought this backpack: very happy, fast delivery.",4,positive,en
+RV0288,desk lamp,"The desk lamp: friendly support, excellent value.",4,positive,en
+RV0289,backpack,أنصح به بشدة التوصيل سريع جداً!,4,positive,ar
+RV0290,backpack,"My new backpack: hard to use, arrived damaged.",2,negative,en
+RV0291,blender,"  BOUGHT THIS BLENDER: NOTHING SPECIAL, AVERAGE PRODUCT.!!!   <br> ",3,neutral,en
+RV0292,headphones,جودة سيئة للأسف لا أنصح به!,2,negative,ar
+RV0293,blender,مقبول مقابل السعر كما هو موصوف!,3,neutral,ar
+RV0294,blender,"My new blender: average product, does the job.",3,neutral,en
+RV0295,kettle,"BOUGHT THIS KETTLE: ARRIVED EARLY, FAST DELIVERY.!!!",5,positive,en
+RV0296,kettle,"  This kettle: okay for the price, nothing special.   <br> ",3,neutral,en
+RV0297,phone case,"This phone case: very happy, beautiful design.",5,positive,en
+RV0298,backpack,"Bought this backpack: waste of money, rude support.",1,negative,en
+RV0299,headphones,"Bought this headphones: waste of money, poor quality.",2,negative,en
+RV0300,water bottle,التوصيل سريع جداً سعر مناسب وأداء ممتاز!,5,positive,ar
+RV0301,kettle,"The kettle: poor quality, very disappointed.",2,negative,en
+RV0302,kettle,"The kettle: nothing special, average product.",3,neutral,en
+RV0303,kettle,"Bought this kettle: excellent value, arrived early.",5,positive,en
+RV0304,keyboard,"This keyboard: okay for the price, nothing special.",3,neutral,en
+RV0305,desk lamp,"Bought this desk lamp: fast delivery, arrived early.",5,positive,en
+RV0306,desk lamp,"My new desk lamp: very happy, easy to use.",5,positive,en
+RV0307,water bottle,"This water bottle: poor quality, hard to use.",2,negative,en
+RV0308,phone case,"The phone case: fast delivery, beautiful design.",4,positive,en
+RV0309,backpack,"THIS BACKPACK: FRIENDLY SUPPORT, EXCELLENT VALUE.!!!",5,positive,en
+RV0310,keyboard,"Bought this keyboard: great quality, beautiful design.",4,positive,en
+RV0311,headphones,"My new headphones: friendly support, very happy.",5,positive,en
+RV0312,blender,"  The blender: waste of money, arrived damaged.   <br> ",1,negative,en
+RV0313,blender,"Bought this blender: friendly support, fast delivery.",4,positive,en
+RV0314,kettle,منتج رائع وجودة ممتازة سعر مناسب وأداء ممتاز!,5,positive,ar
+RV0315,kettle,"My new kettle: average product, nothing special.",3,neutral,en
+RV0316,backpack,"This backpack: highly recommend, excellent value.",5,positive,en
+RV0317,keyboard,"  The keyboard: poor quality, very disappointed.   <br> ",2,negative,en
+RV0318,headphones,"  THIS HEADPHONES: AVERAGE PRODUCT, DOES THE JOB.!!!   <br> ",3,neutral,en
+RV0319,desk lamp,"MY NEW DESK LAMP: NOTHING SPECIAL, AS DESCRIBED.!!!",3,neutral,en
+RV0320,backpack,"This backpack: easy to use, excellent value.",5,positive,en
+RV0321,blender,كما هو موصوف مقبول مقابل السعر!,3,neutral,ar
+RV0322,backpack,"  My new backpack: friendly support, highly recommend.   <br> ",4,positive,en
+RV0323,desk lamp,"This desk lamp: nothing special, okay for the price.",3,neutral,en
+RV0324,keyboard,"This keyboard: okay for the price, does the job.",3,neutral,en
+RV0325,backpack,"Bought this backpack: waste of money, cheap material.",2,negative,en
+RV0326,headphones,"THIS HEADPHONES: WOULD NOT RECOMMEND, POOR QUALITY.!!!",1,negative,en
+RV0327,backpack,"THE BACKPACK: NOTHING SPECIAL, DOES THE JOB.!!!",3,neutral,en
+RV0328,headphones,توقف عن العمل بسرعة جودة سيئة للأسف!,1,negative,ar
+RV0329,kettle,"BOUGHT THIS KETTLE: POOR QUALITY, RUDE SUPPORT.!!!",2,negative,en
+RV0330,water bottle,"Bought this water bottle: excellent value, friendly support.",5,positive,en
+RV0331,backpack,"Bought this backpack: highly recommend, beautiful design.",5,positive,en
+RV0332,backpack,"THE BACKPACK: ARRIVED DAMAGED, VERY DISAPPOINTED.!!!",1,negative,en
+RV0333,kettle,"The kettle: friendly support, works perfectly.",4,positive,en
+RV0334,keyboard,"The keyboard: highly recommend, great quality.",4,positive,en
+RV0335,phone case,"THIS PHONE CASE: VERY HAPPY, ARRIVED EARLY.!!!",5,positive,en
+RV0336,kettle,"This kettle: late delivery, arrived damaged.",1,negative,en
+RV0337,blender,"This blender: does the job, nothing special.",3,neutral,en
+RV0338,headphones,"  Bought this headphones: very happy, arrived early.   <br> ",4,positive,en
+RV0339,kettle,"  Bought this kettle: arrived early, excellent value.   <br> ",4,positive,en
+RV0340,phone case,"Bought this phone case: fast delivery, highly recommend.",5,positive,en
+RV0341,desk lamp,منتج رائع وجودة ممتازة أنصح به بشدة!,5,positive,ar
+RV0342,blender,"  The blender: poor quality, very disappointed.   <br> ",1,negative,en
+RV0343,blender,"The blender: very disappointed, late delivery.",1,negative,en
+RV0344,keyboard,توقف عن العمل بسرعة التوصيل متأخر كثيراً!,2,negative,ar
+RV0345,desk lamp,"This desk lamp: poor quality, late delivery.",1,negative,en
+RV0346,keyboard,"Bought this keyboard: waste of money, rude support.",1,negative,en
+RV0347,phone case,"My new phone case: hard to use, rude support.",1,negative,en
+RV0348,blender,"BOUGHT THIS BLENDER: POOR QUALITY, VERY DISAPPOINTED.!!!",2,negative,en
+RV0349,blender,"This blender: great quality, friendly support.",4,positive,en
+RV0350,headphones,"This headphones: waste of money, rude support.",1,negative,en
+RV0351,kettle,"The kettle: great quality, highly recommend.",5,positive,en
+RV0352,desk lamp,"  Bought this desk lamp: very disappointed, waste of money.   <br> ",1,negative,en
+RV0353,kettle,"The kettle: as described, nothing special.",3,neutral,en
+RV0354,keyboard,"BOUGHT THIS KEYBOARD: BEAUTIFUL DESIGN, VERY HAPPY.!!!",5,positive,en
+RV0355,water bottle,"My new water bottle: great quality, highly recommend.",4,positive,en
+RV0356,kettle,"The kettle: easy to use, highly recommend.",5,positive,en
+RV0357,desk lamp,"This desk lamp: rude support, hard to use.",2,negative,en
+RV0358,kettle,"  The kettle: friendly support, easy to use.   <br> ",4,positive,en
+RV0359,blender,"  My new blender: rude support, hard to use.   <br> ",2,negative,en
+RV0360,headphones,"Bought this headphones: hard to use, would not recommend.",2,negative,en
+RV0361,phone case,"Bought this phone case: waste of money, poor quality.",2,negative,en
+RV0362,headphones,"Bought this headphones: late delivery, very disappointed.",2,negative,en
+RV0363,kettle,"The kettle: cheap material, arrived damaged.",1,negative,en
+RV0364,keyboard,"The keyboard: friendly support, highly recommend.",4,positive,en
+RV0365,water bottle,"  My new water bottle: easy to use, very happy.   <br> ",5,positive,en
+RV0366,headphones,"Bought this headphones: arrived damaged, poor quality.",1,negative,en
+RV0367,water bottle,"My new water bottle: very disappointed, would not recommend.",1,negative,en
+RV0368,backpack,"My new backpack: friendly support, works perfectly.",4,positive,en
+RV0369,kettle,"THE KETTLE: VERY HAPPY, ARRIVED EARLY.!!!",5,positive,en
+RV0370,keyboard,"The keyboard: rude support, late delivery.",1,negative,en
+RV0371,blender,منتج رائع وجودة ممتازة أنصح به بشدة!,5,positive,ar
+RV0372,water bottle,"  My new water bottle: okay for the price, nothing special.   <br> ",3,neutral,en
+RV0373,desk lamp,"The desk lamp: friendly support, great quality.",4,positive,en
+RV0374,water bottle,"  My new water bottle: average product, does the job.   <br> ",3,neutral,en
+RV0375,kettle,"The kettle: cheap material, waste of money.",1,negative,en
+RV0376,blender,"  My new blender: poor quality, stopped working.   <br> ",2,negative,en
+RV0377,keyboard,"My new keyboard: excellent value, fast delivery.",5,positive,en
+RV0378,headphones,منتج رائع وجودة ممتازة أنصح به بشدة!,5,positive,ar
+RV0379,desk lamp,"My new desk lamp: beautiful design, arrived early.",4,positive,en
+RV0380,water bottle,"My new water bottle: easy to use, friendly support.",5,positive,en
+RV0381,kettle,"My new kettle: does the job, nothing special.",3,neutral,en
+RV0382,phone case,"The phone case: average product, nothing special.",3,neutral,en
+RV0383,backpack,"  Bought this backpack: very happy, friendly support.   <br> ",5,positive,en
+RV0384,phone case,"THIS PHONE CASE: VERY HAPPY, GREAT QUALITY.!!!",5,positive,en
+RV0385,desk lamp,"The desk lamp: rude support, would not recommend.",2,negative,en
+RV0386,blender,"The blender: great quality, very happy.",4,positive,en
+RV0387,phone case,"THIS PHONE CASE: VERY HAPPY, GREAT QUALITY.!!!",5,positive,en
+RV0388,water bottle,التوصيل سريع جداً منتج رائع وجودة ممتازة!,4,positive,ar
+RV0389,backpack,"This backpack: friendly support, beautiful design.",5,positive,en
+RV0390,kettle,"Bought this kettle: great quality, arrived early.",5,positive,en
+RV0391,blender,"This blender: does the job, nothing special.",3,neutral,en
+RV0392,headphones,"This headphones: easy to use, highly recommend.",5,positive,en
+RV0393,water bottle,"My new water bottle: average product, okay for the price.",3,neutral,en
+RV0394,headphones,"  THIS HEADPHONES: VERY HAPPY, EXCELLENT VALUE.!!!   <br> ",5,positive,en
+RV0395,keyboard,"My new keyboard: average product, okay for the price.",3,neutral,en
+RV0396,blender,"BOUGHT THIS BLENDER: FAST DELIVERY, EXCELLENT VALUE.!!!",4,positive,en
+RV0397,phone case,"THIS PHONE CASE: RUDE SUPPORT, LATE DELIVERY.!!!",1,negative,en
+RV0398,desk lamp,"This desk lamp: cheap material, poor quality.",2,negative,en
+RV0399,water bottle,"My new water bottle: okay for the price, as described.",3,neutral,en
+RV0400,kettle,"My new kettle: friendly support, fast delivery.",4,positive,en
+RV0401,headphones,"The headphones: average product, okay for the price.",3,neutral,en
+RV0402,desk lamp,"The desk lamp: okay for the price, as described.",3,neutral,en
+RV0403,blender,"Bought this blender: okay for the price, average product.",3,neutral,en
+RV0404,backpack,"Bought this backpack: easy to use, excellent value.",4,positive,en
+RV0405,kettle,"The kettle: arrived damaged, rude support.",1,negative,en
+RV0406,headphones,"The headphones: very disappointed, stopped working.",1,negative,en
+RV0407,backpack,"  This backpack: friendly support, beautiful design.   <br> ",5,positive,en
+RV0408,keyboard,"BOUGHT THIS KEYBOARD: FRIENDLY SUPPORT, ARRIVED EARLY.!!!",5,positive,en
+RV0409,phone case,"The phone case: would not recommend, hard to use.",2,negative,en
+RV0410,water bottle,"BOUGHT THIS WATER BOTTLE: POOR QUALITY, VERY DISAPPOINTED.!!!",1,negative,en
+RV0411,keyboard,"My new keyboard: rude support, poor quality.",1,negative,en
+RV0412,water bottle,"My new water bottle: late delivery, rude support.",1,negative,en
+RV0413,keyboard,كما هو موصوف منتج عادي!,3,neutral,ar
+RV0414,backpack,"This backpack: late delivery, rude support.",2,negative,en
+RV0415,blender,"  MY NEW BLENDER: EASY TO USE, FAST DELIVERY.!!!   <br> ",5,positive,en
+RV0416,backpack,"My new backpack: average product, okay for the price.",3,neutral,en
+RV0417,kettle,"This kettle: does the job, nothing special.",3,neutral,en
+RV0418,kettle,"The kettle: cheap material, waste of money.",2,negative,en
+RV0419,water bottle,"BOUGHT THIS WATER BOTTLE: GREAT QUALITY, VERY HAPPY.!!!",4,positive,en
+RV0420,desk lamp,"The desk lamp: rude support, stopped working.",1,negative,en

@@ -1,0 +1,12 @@
+# Data Science Interactive Academy — runtime dependencies
+# Tested with Python 3.11 on: streamlit 1.63, pandas 3.0, numpy 2.2, scipy 1.13, scikit-learn 1.8,
+# statsmodels 0.14, plotly 6.5. Only those versions are verified; streamlit>=1.63 is required
+# (st.mermaid_chart, horizontal containers). Other lower bounds are conservative estimates.
+streamlit>=1.63,<2
+pandas>=2.2,<4
+numpy>=1.26,<3
+scipy>=1.13,<2
+scikit-learn>=1.5,<2
+statsmodels>=0.14,<0.16
+plotly>=5.24,<7
+openpyxl>=3.1,<4
