@@ -43,7 +43,8 @@ pick = st.selectbox("القاعدة", [r.description for r in CUSTOMER_RULES if 
 rule = next(r for r in CUSTOMER_RULES if r.description == pick)
 res = check(df, rule)
 cols = [rule.column] + ([rule.params["other"]] if "other" in rule.params else [])
-st.dataframe(df.loc[res.failing_index[:50], ["customer_id"] + cols], hide_index=False)
+show_cols = list(dict.fromkeys(["customer_id"] + cols))  # a rule on customer_id must not repeat the column
+st.dataframe(df.loc[res.failing_index[:50], show_cols], hide_index=False)
 st.caption(f"{res.failed} صفًا فاشلًا من {res.checked} (تُعرض أول 50).")
 
 st.markdown("## ابنِ قاعدتك · Rule Builder")
